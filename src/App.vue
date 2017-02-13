@@ -6,7 +6,7 @@
 
 <script>
 
-import axios from 'axios'
+//  import axios from 'axios'
 
 export default {
   name: 'app',
@@ -22,8 +22,8 @@ export default {
   },
 
   mounted () {
-  console.log(‘App -> mounted.’)
-  },
+    console.log()
+  }
 }
 </script>
 
