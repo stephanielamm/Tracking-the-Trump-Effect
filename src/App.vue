@@ -9,13 +9,20 @@
 
 export default {
   name: 'app',
+  components: {
+  },
+  data () {
+    return {
+
+    }
+  },
+
+  methods: {
+  },
 
   mounted () {
-    console.log(‘App -> mounted.’)
+  console.log(‘App -> mounted.’)
   },
-  components: {
-  }
-
 }
 </script>
 
