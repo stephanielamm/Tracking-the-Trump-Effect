@@ -1,32 +1,22 @@
 <template>
   <div id="app">
-   {{ message }}
-    <tweetData :tweetData="tweets">
-    </tweetData>
+    {{ message }}
   </div>
 </template>
 
 <script>
-import axios from 'axios'
-import tweetData from './components/tweetData.vue'
-
 export default {
   name: 'app',
-  components: {
-    tweetData
-  },
+  props: [
+    'tweets'
+  ],
   data () {
     return {
-      message: 'test message',
-      tweets: []
+      message: 'tweetData message test'
     }
   },
   mounted () {
-    axios.get('/static/twitter-data.json')
-    .then((response) => {
-      // console.log(response.data)
-      this.tweets = response.data
-    })
+    console.log(this.tweets)
   }
 }
 </script>
