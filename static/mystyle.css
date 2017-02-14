@@ -17,7 +17,7 @@ font-family: 'Mukta Vaani', sans-serif;
 
 }
 .header-title {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   font-size: 50px;
   color: red;
 }
@@ -34,32 +34,39 @@ font-family: 'Mukta Vaani', sans-serif;
 }
 
 .company-name {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
   font-size: 30px;
 }
 
 .company-about {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
 
 }
 
 .tweet-box {
   float: left;
+  margin-left: 3.5em;
 }
 
 .stock-chart {
   float: right;
+  margin-right: 2em;
 }
 
 .explanatory-text {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-top: 3em;
+  margin-left: 3.5em;
 }
 
 
 /* Footer Styling */
 .footer-container {
-  margin-top: 8em;
-  margin-bottom: 1.5em;
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  margin-top: 7em;
+  padding-bottom: 2em;
+  margin-left: 1em;
 }
 .footer-name {
   float: left;
