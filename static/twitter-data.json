@@ -1,132 +1,74 @@
 [
 {
   "company": "Boeing",
-  "ticker": "",
+  "ticker": "BA",
   "link": "https://twitter.com/realDonaldTrump/status/806134244384899072",
-  "tweet-text": "Boeing is building a brand new 747 Air Force One for future presidents,
-  but costs are out of control, more than $4 billion. Cancel order!",
+  "tweet-text": "Boeing is building a brand new 747 Air Force One for future presidents,but costs are out of control, more than $4 billion. Cancel order!",
   "handle": "@realDonaldTrump",
   "date": "6 Dec 2016",
   "time": "8:52 AM"
 },
-
 {
-  "company":"",
-  "ticker": "",
-  "link": "",
-  "tweet-text": "",
-  "handle": "",
-  "date": "",
-  "time": ""
+  "company":"Fiat-Chrysler",
+  "ticker": "FCAU",
+  "link": "https://twitter.com/realDonaldTrump/status/818460862675558400",
+  "tweet-text": "It's finally happening - Fiat Chrysler just announced plans to invest $1BILLION in Michigan and Ohio plants, adding 2000 jobs. This after...",
+  "handle": "@realDonaldTrump",
+  "date": "9 Jan 2017",
+  "time": "9:14 AM"
 },
-
 {
-  "company":"",
-  "ticker": "",
-  "link": "",
-  "tweet-text": "",
-  "handle": "",
-  "date": "",
-  "time": ""
+  "company":"Ford",
+  "ticker": "F",
+  "link": "https://twitter.com/realDonaldTrump/status/818461467766824961",
+  "tweet-text": "Ford said last week that it will expand in Michigan and U.S. instead of building a BILLION dollar plant in Mexico. Thank you Ford & Fiat C!",
+  "handle": "@realDonaldTrump",
+  "date": "9 Jan 2017",
+  "time": "9:16 AM"
 },
-
 {
-  "company":"",
-  "ticker": "",
-  "link": "",
-  "tweet-text": "",
-  "handle": "",
-  "date": "",
-  "time": ""
+  "company":"Toyota",
+  "ticker": "TM",
+  "link": "https://twitter.com/realDonaldTrump/status/817071792711942145",
+  "tweet-text": "Toyota Motor said will build a new plant in Baja, Mexico, to build Corolla cars for U.S. NO WAY! Build plant in U.S. or pay big border tax.",
+  "handle": "@realDonaldTrump",
+  "date": "5 Jan 2017",
+  "time": "1:14 PM"
 },
-
 {
-  "company":"",
-  "ticker": "",
-  "link": "",
-  "tweet-text": "",
-  "handle": "",
-  "date": "",
-  "time": ""
+  "company":"Nordstrom",
+  "ticker": "JWN",
+  "link": "https://twitter.com/realDonaldTrump/status/829356871848951809",
+  "tweet-text": "My daughter Ivanka has been treated so unfairly by @Nordstrom. She is a great person -- always pushing me to do the right thing! Terrible!",
+  "handle": "@realDonaldTrump",
+  "date": "8 Feb 2017",
+  "time": "10:51 AM"
+},
+{
+  "company":"Rexnord",
+  "ticker": "RXN",
+  "link": "https://twitter.com/realDonaldTrump/status/804884532671430658",
+  "tweet-text": "Rexnord of Indiana is moving to Mexico and rather viciously firing all of its 300 workers. This is happening all over our country. No more!",
+  "handle": "@realDonaldTrump",
+  "date": "2 Dec 2016",
+  "time": "10:06 PM"
+},
+{
+  "company":"United Technologies",
+  "ticker": "UTX",
+  "link": "https://twitter.com/realdonaldtrump/status/804170300908781570?lang=en",
+  "tweet-text": "Look forward to going to Indiana tomorrow in order to be with the great workers of Carrier. They will sell many air conditioners!",
+  "handle": "@realDonaldTrump",
+  "date": "30 Nov 2016",
+  "time": "10:48 PM"
+},
+{
+  "company":"General Motors",
+  "ticker": "GM",
+  "link": "https://twitter.com/realdonaldtrump/status/816260343391514624?lang=en",
+  "tweet-text": "General Motors is sending Mexican made model of Chevy Cruze to U.S. car dealers-tax free across border. Make in U.S.A.or pay big border tax!",
+  "handle": "@realDonaldTrump",
+  "date": "3 Jan 2017",
+  "time": "7:30 AM"
 }
 ]
-
-Boeing/Lockheed:
-https://twitter.com/realDonaldTrump/status/806134244384899072
-@realDonaldTrump
-Boeing is building a brand new 747 Air Force One for future presidents,
-but costs are out of control, more than $4 billion. Cancel order!
-6 Dec 2016
-8:52 AM
-
-2.
-Fiat-Chrysler:
-https://twitter.com/realDonaldTrump/status/818460862675558400
-@realDonaldTrump
-It's finally happening - Fiat Chrysler just announced plans to invest
-$1BILLION in Michigan and Ohio plants, adding 2000 jobs. This after...
-9 Jan 2017
-9:14 AM
-
-3.
-Ford and Fiat:
-https://twitter.com/realDonaldTrump/status/818461467766824961
-@realDonaldTrump
-Ford said last week that it will expand in Michigan and U.S. instead
-of building a BILLION dollar plant in Mexico. Thank you Ford & Fiat C!
-9 Jan 2017
-9:16 AM
-
-4.
-Toyota:
-https://twitter.com/realDonaldTrump/status/817071792711942145
-@realDonaldTrump
-Toyota Motor said will build a new plant in Baja, Mexico, to build
-Corolla cars for U.S. NO WAY! Build plant in U.S. or pay big border tax.
-5 Jan 2017
-1:14 PM
-
- 5.
- Nordstrom:
- https://twitter.com/realDonaldTrump/status/829356871848951809
- @realDonaldTrump
- My daughter Ivanka has been treated so unfairly by @Nordstrom.
- She is a great person -- always pushing me to do the right thing!
- Terrible!
- 8 Feb 2017
- 10:51 AM
-
- 6.
- Rexnord:
- https://twitter.com/realDonaldTrump/status/804884532671430658
- @realDonaldTrump
- Rexnord of Indiana is moving to Mexico and rather viciously firing
- all of its 300 workers. This is happening all over our country.
- No more!
- 2 Dec 2016
- 10:06 PM
-
-7.
-Carrier/United Technologies:
-Look forward to going to Indiana tomorrow in order to be with the
-great workers of Carrier. They will sell many air conditioners!
-
-8.
-General Motors:
-General Motors is sending Mexican made model of Chevy Cruze to U.S.
-car dealers-tax free across border. Make in U.S.A.or pay big border
-tax!
-
-9.
-L.L. Bean:
-Thank you to Linda Bean of L.L.Bean for your great support and courage.
-People will support you even more now. Buy L.L.Bean. @LBPerfectMaine
-
-10.
-Apple:
-Boycott all Apple products until such time as Apple gives cellphone
-info to authorities regarding radical Islamic terrorist couple from Cal
-
-11.
-Amazon:
-If @amazon ever had to pay fair taxes, its stock would crash and it
