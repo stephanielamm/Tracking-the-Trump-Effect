@@ -1,6 +1,28 @@
+/* Fonts (not sure what I'm using yet) */
+
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
 font-family: 'Montserrat', sans-serif;
 font-family: 'Arimo', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Mukta Vaani', sans-serif;
+
+/* Header Styling */
+.header-title {
+font-family: 'Raleway',
+}
+.header-about {
+
+}
+
+
+/* Footer Styling */
+.footer-name {
+
+}
+.footer-datasource {
+
+}
+.footer-codesource {
+
+}
