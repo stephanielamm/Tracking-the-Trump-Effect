@@ -3,12 +3,14 @@
   <head>
     <meta charset="utf-8">
     <title>Trump Ticker Tracker</title>
+    <!-- custom css -->
+  <link href="mystyle.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <!-- bootstrap -->
     <!-- Latest compiled and minified CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="bootstrap-stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="bootstrap-stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -18,26 +20,40 @@
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Arimo|Montserrat|Mukta+Vaani|Playfair+Display|Raleway|Source+Sans+Pro" rel="stylesheet">
 
-  <!-- custom css -->
-  <link href="css/style.css" rel="stylesheet">
-
-
-
 </head>
+
   <body>
     <div class="header-title">Trump Ticker Tracker</div>
     <div class="header-about">This is a short explaination of the project.</div>
     <div id="app"></div>
     <!-- built files will be auto injected -->
-    <!-- will have component for drop down menu -->
-    <!-- will have component for Compnay Name and Ticker with text about company -->
-    <!-- will have component for Tweet -->
-    <!-- will have component for stock chart (made with Highstock API) -->
-    <!-- will have component for explanatory text -->
+    <div class="drop-down-menu">
+        <!-- will have component for drop down menu -->
+      </div>
+    <div class="company-name">
+      <h1>Boeing (BA)</h1>
+      <!-- will have component for Compnay Name and Ticker -->
+      </div>
+    <div class="company-about">
+      <p>This is text about the company.</p>
+      <!-- will have component with text about company under these elements -->
+      </div>
+    <div class="tweet-box">
+      This is where the formatted tweet will go.
+      <!-- will have component for Tweet (to left of the page) -->
+      </div>
+    <div class="stock-chart">
+      This is where the stock chart will go.
+      <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
+      </div>
+    <div class="explanatory-text">
+      <p>This is text explaining the tweet and its effect on stock price.</p>
+      <!-- will have component for explanatory text (under the visual elements) -->
+    </div>
   </body>
   <footer>
     <div class="footer-name">A Project by Stephanie Lamm</div>
-    <div class="footer-datasource">Stock data from TKTKTKTK Tweets from @realDonaldTrump</div>
+    <div class="footer-datasource">Stock data from TKTKTKTK. Tweets from @realDonaldTrump</div>
     <div class="footer-codesource">Stock charts made using Highstock API</div>
   </footer>
 

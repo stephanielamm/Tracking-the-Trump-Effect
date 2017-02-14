@@ -8,21 +8,47 @@ font-family: 'Playfair Display', serif;
 font-family: 'Mukta Vaani', sans-serif;
 
 /* Header Styling */
-.header-title {
-font-family: 'Raleway',
+header-title {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: blue;
+  padding-top: 45px;
 }
-.header-about {
+
+header-about {
+
+}
+
+company-name {
+
+}
+
+company-about {
+
+}
+
+tweet-box {
+
+}
+
+stock-chart {
+
+}
+
+explanatory-text {
 
 }
 
 
 /* Footer Styling */
-.footer-name {
+footer-name {
 
 }
-.footer-datasource {
+
+footer-datasource {
 
 }
-.footer-codesource {
+
+footer-codesource {
 
 }
