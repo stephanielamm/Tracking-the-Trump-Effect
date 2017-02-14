@@ -7,10 +7,10 @@
   <link href="static/mystyle.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <!-- bootstrap -->
     <!-- Latest compiled and minified CSS -->
-  <link rel="bootstrap-stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
   <!-- Optional theme -->
-  <link rel="bootstrap-stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
@@ -23,44 +23,53 @@
 </head>
 
   <body>
-    <div class="header-container">
-    <div class="header-title">Trump Ticker Tracker</div>
-    <div class="header-about">This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project.</div>
+    <div id="header-container">
+    <div id="header-title">Trump Ticker Tracker</div>
+    <div id="header-about">This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project.</div>
       </div>
   <div id="app"></div>
     <!-- built files will be auto injected -->
-    <div class="drop-down-menu">
+    <div id="drop-down-menu">
         <!-- will have component for drop down menu -->
       </div>
-    <div class="company-container">
-    <div class="company-name">
+
+    <div class="container" id="company-container">
+      <div class="row">
+      <div class= "col" id="company-logo">
+        <img src="static/boeing-logo.png" alt="Boeing Logo" style="width:300px;height:100px;">
+        <!-- will have component for Company Logo -->
+        </div>
+    <div class="col" id="company-name">
       Boeing (BA)
-      <!-- will have component for Compnay Name and Ticker -->
+      <!-- will have component for Company Name and Ticker -->
       </div>
-    <div class="company-about">
+    </div>
+    <div id="company-about">
       <p>This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is This is text about the company. This is text about the company. text about the company. This is text about the company. </p>
       <!-- will have component with text about company under these elements -->
       </div>
     </div>
-    <div class="tweet-box">
+    <div id="tweet-box">
       This is where the formatted tweet will go.
       <!-- will have component for Tweet (to left of the page) -->
       </div>
-    <div class="stock-chart">
+    <div id="stock-chart">
       This is where the stock chart will go.
       <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
       </div>
-    <div class="explanatory-text">
+    <div id="explanatory-text">
       <p>This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effThis is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. ect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price.</p>
       <!-- will have component for explanatory text (under the visual elements) -->
     </div>
   </body>
   <footer>
-  <div class="footer-container">
-    <div class="footer-name">A Project by Stephanie Lamm. </div>
-    <div class="footer-datasource">Stock data from TKTKTKTK. Tweets from @realDonaldTrump.</div>
-    <div class="footer-codesource"> Stock charts made using Highstock API.</div>
+  <div class="container" id="footer-container">
+    <div class="row">
+    <div class="col" id="footer-name">A Project by Stephanie Lamm. </div>
+    <div class="col" id="footer-datasource">Stock data from TKTKTKTK. Tweets from @realDonaldTrump.</div>
+    <div class="col" id="footer-codesource"> Stock charts made using Highstock API.</div>
   </div>
+</div>
   </footer>
 
 </html>

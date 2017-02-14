@@ -1,82 +1,63 @@
-/* Fonts (not sure what I'm using yet)
-
-font-family: 'Raleway', sans-serif;
-font-family: 'Source Sans Pro', sans-serif;
-font-family: 'Montserrat', sans-serif;
-font-family: 'Arimo', sans-serif;
-font-family: 'Playfair Display', serif;
-font-family: 'Mukta Vaani', sans-serif;
-
-*/
-
 /* Header Styling */
-.header-container {
+#header-container {
   text-align: center;
   display: block;
   margin-top: 2em;
-
 }
-.header-title {
+#header-title {
   font-family: 'Mukta Vaani', sans-serif;
   font-size: 50px;
   color: red;
 }
-
-.header-about {
+#header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 30px;
   color: blue;
 }
-
-.company-container {
+/* Company Styling */
+#company-container {
   margin-top: 2em;
   margin-left: 3.5em;
 }
-
-.company-name {
+#company-name {
   font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
-  font-size: 30px;
+  font-size: 50px;
+  float: left;
 }
-
-.company-about {
+#company-logo {
+  float: right;
+}
+#company-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-
 }
-
-.tweet-box {
+/* Twitter Styling */
+#tweet-box {
   float: left;
   margin-left: 3.5em;
 }
-
-.stock-chart {
+/* Stock Chart Styling */
+#stock-chart {
   float: right;
   margin-right: 2em;
 }
-
-.explanatory-text {
+/* Explanatory Text Box Styling */
+#explanatory-text {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-top: 3em;
   margin-left: 3.5em;
 }
-
-
 /* Footer Styling */
-.footer-container {
+#footer-container {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  margin-top: 7em;
-  padding-bottom: 2em;
-  margin-left: 1em;
+  background-color: blue;
 }
-.footer-name {
-  float: left;
-}
+#footer-name {
 
-.footer-datasource {
-  float: left;
 }
+#footer-datasource {
 
-.footer-codesource {
-  float: left;
+}
+#footer-codesource {
 
 }
