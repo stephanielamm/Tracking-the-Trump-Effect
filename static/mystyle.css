@@ -1,4 +1,4 @@
-/* Fonts (not sure what I'm using yet) */
+/* Fonts (not sure what I'm using yet)
 
 font-family: 'Raleway', sans-serif;
 font-family: 'Source Sans Pro', sans-serif;
@@ -7,48 +7,51 @@ font-family: 'Arimo', sans-serif;
 font-family: 'Playfair Display', serif;
 font-family: 'Mukta Vaani', sans-serif;
 
+*/
+
 /* Header Styling */
-header-title {
+.header-title {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 30px;
   color: blue;
   padding-top: 45px;
+  margin-left: 45px;
 }
 
-header-about {
-
-}
-
-company-name {
+.header-about {
 
 }
 
-company-about {
+.company-name {
 
 }
 
-tweet-box {
+.company-about {
 
 }
 
-stock-chart {
+.tweet-box {
 
 }
 
-explanatory-text {
+.stock-chart {
+
+}
+
+.explanatory-text {
 
 }
 
 
 /* Footer Styling */
-footer-name {
+.footer-name {
 
 }
 
-footer-datasource {
+.footer-datasource {
 
 }
 
-footer-codesource {
+.footer-codesource {
 
 }
