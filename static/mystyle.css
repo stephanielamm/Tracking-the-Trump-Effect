@@ -10,20 +10,33 @@ font-family: 'Mukta Vaani', sans-serif;
 */
 
 /* Header Styling */
+.header-container {
+  text-align: center;
+  display: block;
+  margin-top: 2em;
+
+}
 .header-title {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 30px;
-  color: blue;
-  padding-top: 45px;
-  margin-left: 45px;
+  font-size: 50px;
+  color: red;
 }
 
 .header-about {
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 30px;
+  color: blue;
+}
 
+.company-container {
+  margin-top: 2em;
+  margin-left: 3.5em;
 }
 
 .company-name {
-
+  font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
 }
 
 .company-about {
@@ -31,27 +44,32 @@ font-family: 'Mukta Vaani', sans-serif;
 }
 
 .tweet-box {
-
+  float: left;
 }
 
 .stock-chart {
-
+  float: right;
 }
 
 .explanatory-text {
-
+  margin-top: 3em;
 }
 
 
 /* Footer Styling */
+.footer-container {
+  margin-top: 8em;
+  margin-bottom: 1.5em;
+}
 .footer-name {
-
+  float: left;
 }
 
 .footer-datasource {
-
+  float: left;
 }
 
 .footer-codesource {
+  float: left;
 
 }

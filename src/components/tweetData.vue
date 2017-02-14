@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    {{ message }}
+  {{ message }}
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   name: 'app',
   props: [
-    'tweets'
+    'tweetData'
   ],
   data () {
     return {

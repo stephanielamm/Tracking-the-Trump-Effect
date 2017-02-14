@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-   {{ message }}
+     {{ message }} 
     <tweetData :tweetData="tweets">
     </tweetData>
   </div>
@@ -41,6 +41,6 @@ export default {
   color: orange;
   margin-top: 60px;
   padding:40px;
-  border: thin grey solid;
+  /* border: thin grey solid; */
 }
 </style>
