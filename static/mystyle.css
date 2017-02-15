@@ -13,6 +13,9 @@
 [v-cloak] {
   display: none;
 }
+#app {
+  background-color: #F5F8FA;
+}
 /* Header Styling */
 #header-bar {
   background-color: #3B7B8E;
