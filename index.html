@@ -8,18 +8,13 @@
     <!-- bootstrap -->
     <!-- Latest compiled and minified CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
   <!-- Optional theme -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
-
   <!-- Latest compiled and minified JavaScript -->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
   <!-- Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Arimo|Montserrat|Mukta+Vaani|Playfair+Display|Raleway|Source+Sans+Pro" rel="stylesheet">
-
 </head>
 
   <body>
@@ -30,7 +25,18 @@
   <div id="app"></div>
     <!-- built files will be auto injected -->
     <div id="drop-down-menu">
-      Drop Down Menu Herey Herey Herey 
+      <p>
+    <select v-model="selected">
+      <option>Boeing</option>
+      <option>Fiat-Chrysler</option>
+      <option>Ford</option>
+      <option>Toyota</option>
+      <option>Nordstrom</option>
+      <option>Rexnord</option>
+      <option>United Technologies</option>
+      <option>General Motors</option>
+    </select>
+  </p>
         <!-- will have component for drop down menu -->
       </div>
 
@@ -58,6 +64,7 @@
       This is where the stock chart will go.
       <div id="container" style="height: 400px; min-width: 310px"></div>
       <script>
+      // code from HighStocks; will need to figure out how to get relevant stock data
       $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=?', function (data) {
         // Create the chart
       Highcharts.stockChart('container', {
