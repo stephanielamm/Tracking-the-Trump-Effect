@@ -4,16 +4,17 @@
     <p>Company:
     <select v-model="company" class="company">
       <option value="">Select a Company</option>
-      <option value="Boeing">Boeing</option>
-      <option value="Fiat-Chrysler">Fiat-Chrysler</option>
-      <option value="Ford">Ford</option>
+      <option value="Boeing - BA">Boeing</option>
+      <option value="Fiat-Chrysler - FCA">Fiat-Chrysler</option>
+      <option value="Ford - F">Ford</option>
       <option value="Toyota">Toyota</option>
       <option value="Nordstrom">Nordstrom</option>
       <option value="Rexnord">Rexnord</option>
       <option value="United Technologies">United Technologies</option>
       <option value="General Motors">General Motors</option>
     </select>
-       <span>{{ company }}</span>
+  </br>
+       <span id="company-name">{{ company }}</span>
       </p>
   <!--  <tweetData :tweetData="tweets">
   </tweetData> -->
@@ -56,5 +57,13 @@ export default {
   margin-top: 20px;
   padding:20px;
   /* border: thin grey solid; */
+}
+#company-name {
+  font-family: 'Mukta Vaani', sans-serif;
+  font-weight: bold;
+  font-size: 50px;
+  float: left;
+  margin-left: 2em;
+  margin-top: 2em;
 }
 </style>
