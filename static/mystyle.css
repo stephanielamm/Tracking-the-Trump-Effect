@@ -10,6 +10,9 @@
 
 
 */
+[v-cloak] {
+  display: none;
+}
 /* Header Styling */
 #header-bar {
   background-color: #3B7B8E;

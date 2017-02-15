@@ -13,9 +13,10 @@
       <option value="United Technologies">United Technologies</option>
       <option value="General Motors">General Motors</option>
     </select>
-    </p>
-    <tweetData :tweetData="tweets">
-    </tweetData>
+       {{ selected }}
+      </p>
+  <!--  <tweetData :tweetData="tweets">
+  </tweetData> -->
   </div>
 </template>
 

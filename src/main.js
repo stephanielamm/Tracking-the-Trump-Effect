@@ -8,8 +8,5 @@ import App from './App'
 new Vue({
   el: '#app',
   template: '<App/>',
-  components: { App },
-  data: {
-    company: '-'
-  }
+  components: { App }
 })
