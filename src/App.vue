@@ -128,7 +128,8 @@ export default {
   float: left;
   margin-left: 2em;
   margin-top: 2em;
-}#company-logo {
+}
+#company-logo {
   float: right;
   margin-top: 1em;
   margin-right: 1em;

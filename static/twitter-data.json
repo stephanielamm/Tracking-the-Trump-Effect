@@ -1,6 +1,7 @@
 [{
 	"company": "Boeing",
 	"ticker": "BA",
+	"logo": "static/boeing-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/806134244384899072",
 	"photo": "static/boeing-tweet.png",
 	"tweettext": "Boeing is building a brand new 747 Air Force One for future presidents,but costs are out of control, more than $4 billion. Cancel order!",
@@ -12,6 +13,7 @@
 }, {
 	"company": "Fiat-Chrysler",
 	"ticker": "FCAU",
+	"logo": "static/fca-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/818460862675558400",
 	"photo": "static/fca-tweet.png",
 	"tweettext": "It's finally happening - Fiat Chrysler just announced plans to invest $1BILLION in Michigan and Ohio plants, adding 2000 jobs. This after...",
@@ -21,6 +23,7 @@
 }, {
 	"company": "Ford",
 	"ticker": "F",
+	"logo": "static/ford-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/818461467766824961",
 	"photo": "static/ford-tweet.png",
 	"tweettext": "Ford said last week that it will expand in Michigan and U.S. instead of building a BILLION dollar plant in Mexico. Thank you Ford & Fiat C!",
@@ -30,6 +33,7 @@
 }, {
 	"company": "Toyota",
 	"ticker": "TM",
+	"logo": "static/toyota-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/817071792711942145",
 	"photo": "static/toyota-tweet.png",
 	"tweettext": "Toyota Motor said will build a new plant in Baja, Mexico, to build Corolla cars for U.S. NO WAY! Build plant in U.S. or pay big border tax.",
@@ -39,6 +43,7 @@
 }, {
 	"company": "Nordstrom",
 	"ticker": "JWN",
+	"logo": "static/nordstrom-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/829356871848951809",
 	"photo": "static/nordstrom-tweet.png",
 	"tweettext": "My daughter Ivanka has been treated so unfairly by @Nordstrom. She is a great person -- always pushing me to do the right thing! Terrible!",
@@ -48,6 +53,7 @@
 }, {
 	"company": "Rexnord",
 	"ticker": "RXN",
+	"logo": "static/rexnord-logo.png",
 	"link": "https://twitter.com/realDonaldTrump/status/804884532671430658",
 	"photo": "static/rexnord-tweet.png",
 	"tweettext": "Rexnord of Indiana is moving to Mexico and rather viciously firing all of its 300 workers. This is happening all over our country. No more!",
@@ -57,6 +63,7 @@
 }, {
 	"company": "United Technologies",
 	"ticker": "UTX",
+	"logo": "static/ut-logo.png",
 	"link": "https://twitter.com/realdonaldtrump/status/804170300908781570?lang=en",
 	"photo": "static/ut-tweet.png",
 	"tweettext": "Look forward to going to Indiana tomorrow in order to be with the great workers of Carrier. They will sell many air conditioners!",
@@ -66,6 +73,7 @@
 }, {
 	"company": "General Motors",
 	"ticker": "GM",
+	"logo": "static/gm-logo.png",
 	"link": "https://twitter.com/realdonaldtrump/status/816260343391514624?lang=en",
 	"photo": "static/gm-tweet.png",
 	"tweettext": "General Motors is sending Mexican made model of Chevy Cruze to U.S. car dealers-tax free across border. Make in U.S.A.or pay big border tax!",
