@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title>Trump Ticker Tracker</title>
+    <title>TRMP TKR TRKR</title>
     <!-- custom css -->
   <link href="static/mystyle.css" rel="stylesheet" type="text/css" media="screen, projection"/>
     <!-- bootstrap -->
@@ -19,7 +19,7 @@
 
   <body>
     <div class="container" id="header-container">
-    <div class="row" id="header-title">Trump Ticker Tracker</div>
+    <div class="row" id="header-title">When Trump Tweets About Public Companies</div>
     <div class="row" id="header-about">This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project.</div>
       </div>
   <div id="app"></div>
@@ -37,23 +37,26 @@
       <option>General Motors</option>
     </select>
   </p>
-        <!-- will have component for drop down menu -->
+      <!-- will have component for drop down menu -->
+      <dropDown></dropDown>
       </div>
-
     <div class="container" id="company-container">
       <div class="row">
       <div class="col-6" id="company-logo">
         <img src="static/boeing-logo.png" alt="Boeing Logo" style="width:300px;height:100px;">
         <!-- will have component for Company Logo -->
+        <companyLogo></companyLogo>
         </div>
     <div class="col-6" id="company-name">
       Boeing (BA)
       <!-- will have component for Company Name and Ticker -->
+      <companyName></companyName>
       </div>
     </div>
     <div class="row" id="company-about">
       <p>This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is text about the company. This is This is text about the company. This is text about the company. text about the company. This is text about the company. </p>
       <!-- will have component with text about company under these elements -->
+      <companyAbout></companyAbout>
       </div>
     <div class="row">
     <div class="col-6" id="tweet-box">
@@ -62,7 +65,7 @@
       </div>
     <div class="col-6" id="stock-chart">
       This is where the stock chart will go.
-      <div id="container" style="height: 400px; min-width: 310px"></div>
+      <div id="container" style="height: 350px; min-width: 510px"></div>
       <script>
       // code from HighStocks; will need to figure out how to get relevant stock data
       $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=?', function (data) {
@@ -84,7 +87,6 @@
     });
 });
 </script>
-
       <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
       </div>
         </div>
@@ -92,6 +94,7 @@
       <div class="col-12">
       <p>This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effThis is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price. ect on stock price. This is text explaining the tweet and its effect on stock price. This is text explaining the tweet and its effect on stock price.</p>
       <!-- will have component for explanatory text (under the visual elements) -->
+    <explanatoryText></explanatoryText>
     </div>
   </div>
   </div>
@@ -102,9 +105,9 @@
   <footer>
   <div class="container-fluid" id="footer-container">
     <div class="row">
-    <div class="col-4" id="footer-name">A Project by Stephanie Lamm. </div>
-    <div class="col-4" id="footer-datasource">Stock data from TKTKTKTK. Tweets from @realDonaldTrump.</div>
-    <div class="col-4" id="footer-codesource"> Stock charts made using Highstock API.</div>
+    <div class="col-lg-4" id="footer-name">A Project by Stephanie Lamm. </div>
+    <div class="col-lg-4" id="footer-datasource">Stock data from TKTKTKTK. Tweets from @realDonaldTrump.</div>
+    <div class="col-lg-4" id="footer-codesource"> Stock charts made using Highstock API.</div>
   </div>
 </div>
   </footer>

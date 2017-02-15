@@ -7,6 +7,8 @@
 #FF6700
 #F5F8FA
 #328E54
+
+
 */
 /* Header Styling */
 #header-container {
@@ -17,12 +19,17 @@
 #header-title {
   font-family: 'Mukta Vaani', sans-serif;
   font-size: 50px;
-  color: #FF6700;
+  color: #3B7B8E;
 }
 #header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 22px;
-  color: #1DA1F2;
+  color: grey;
+}
+#drop-down-menu {
+  margin-top: 2em;
+  margin-left: 3.5em;
+  margin-bottom: 2em;
 }
 /* Company Styling */
 #company-container {
@@ -36,12 +43,18 @@
   font-weight: bold;
   font-size: 50px;
   float: left;
+  margin-left: 0.5em;
+  margin-top: 0.5em;
 }
 #company-logo {
   float: right;
+  margin-top: 1em;
+  margin-right: 1em;
 }
 #company-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  margin-left: 0.5em;
+  margin-top: 0.1em;
 }
 /* Twitter Styling */
 #tweet-box {
@@ -60,6 +73,7 @@
 /* Explanatory Text Box Styling */
 #explanatory-text {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  margin-left: 0.5em;
 }
 /* Footer Styling */
 #footer-container {
@@ -68,11 +82,11 @@
   color: #F5F8FA;
 }
 #footer-name {
-
+  float: left;
 }
 #footer-datasource {
 
 }
 #footer-codesource {
-
+  float: right;
 }
