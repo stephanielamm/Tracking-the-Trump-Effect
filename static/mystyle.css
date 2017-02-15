@@ -83,7 +83,7 @@
 /* Footer Styling */
 #footer-container {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 15px;
+  font-size: 10px;
   background-color: #3B7B8E;
   color: #F5F8FA;
 }
@@ -91,7 +91,6 @@
   float: left;
 }
 #footer-datasource {
-
 }
 #footer-codesource {
   float: right;
