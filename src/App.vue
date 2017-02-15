@@ -67,7 +67,7 @@
   <tweetData
   :company="company"
   :about="about"
-  :tweet-text="tweettext"
+  :tweettext="tweettext"
   :analysis="analysis"
   >
   </tweetData>
