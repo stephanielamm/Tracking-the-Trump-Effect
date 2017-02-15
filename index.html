@@ -25,18 +25,21 @@
   <div id="app"></div>
     <!-- built files will be auto injected -->
     <div id="drop-down-menu">
-      <p>
-    <select v-model="selected">
-      <option>Boeing</option>
-      <option>Fiat-Chrysler</option>
-      <option>Ford</option>
-      <option>Toyota</option>
-      <option>Nordstrom</option>
-      <option>Rexnord</option>
-      <option>United Technologies</option>
-      <option>General Motors</option>
+      <form id="demo">
+      <p>Company:
+    <select v-model="selected" class="company">
+      <option value="-">Select a Company</option>
+      <option value="Boeing">Boeing</option>
+      <option value="Fiat-Chrysler">Fiat-Chrysler</option>
+      <option value="Ford">Ford</option>
+      <option value="Toyota">Toyota</option>
+      <option value="Nordstrom">Nordstrom</option>
+      <option value="Rexnord">Rexnord</option>
+      <option value="United Technologies">United Technologies</option>
+      <option value="General Motors">General Motors</option>
     </select>
   </p>
+</form>
       <!-- will have component for drop down menu -->
       <dropDown></dropDown>
       </div>
