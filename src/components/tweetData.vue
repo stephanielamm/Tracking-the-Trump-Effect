@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-  {{ message }}
+<!-- {{ message }} -->
   </div>
 </template>
 
@@ -24,11 +24,10 @@ export default {
 <style>
 #app {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 30px;
+  font-size: 26px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: orange;
   margin-top: 60px;
   padding:40px;
   border: thin grey solid;
