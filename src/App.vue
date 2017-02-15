@@ -18,7 +18,7 @@
       <div class="row">
       <div class="col-6" id="company-name">{{ company }}</div>
       <div class="col-6" id="company-logo">
-        <img src="logo" alt="Company Logo" style="width:300px;height:100px;">
+        <img src="static/boeing-logo.png" alt="Company Logo" style="width:300px;height:100px;">
         </div>
     </div>
     <div class="row" id="company-about">
@@ -55,11 +55,9 @@
       <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
       </div>
         </div>
-      <div class="row" id="explanatory-text">
+      <div class="row" id="analysis">
       <div class="col-12">
       <p>{{ analysis }}</p>
-      <!-- will have component for explanatory text (under the visual elements) -->
-    <explanatoryText></explanatoryText>
     </div>
   </div>
   </div>
@@ -77,7 +75,7 @@
 
 <script>
 import axios from 'axios'
-import tweetData from './components/tweetData.vue'
+import tweetData from './components/tweetData'
 
 export default {
   name: 'app',
@@ -91,9 +89,9 @@ export default {
       tweets: [],
       company: 'Select a company to see tweets and stock data',
       logo: '',
-      about: 'Choose a company using the drop down menu and text about the company will appear here.',
-      analysis: 'Choose a company using the drop down menu and text analyzing the stock price will appear here',
-      tweettext: 'Choose a company using the drop down menu and a tweet from @realDonaldTrump mentioning that company will appear here.'
+      about: 'Text about the company will appear here.',
+      analysis: 'Text analyzing the stock price will appear here',
+      tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
     }
   },
   mounted () {
@@ -157,7 +155,7 @@ export default {
   margin-bottom: 2em;
 }
 /* Explanatory Text Box Styling */
-#explanatory-text {
+#analysis {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-left: 0.5em;
   margin-right: 0.5em;
