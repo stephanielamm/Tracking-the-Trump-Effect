@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <!-- Dropdown menu to set company -->
-    <p>Company:
-    <select v-model="selected" class="company">
-      <option value="-">Select a Company</option>
+    <p>Select a company:
+    <select v-model="company" class="company">
+      <option value="-">-</option>
       <option value="Boeing">Boeing</option>
       <option value="Fiat-Chrysler">Fiat-Chrysler</option>
       <option value="Ford">Ford</option>
@@ -13,7 +13,7 @@
       <option value="United Technologies">United Technologies</option>
       <option value="General Motors">General Motors</option>
     </select>
-       {{ selected }}
+       <span>Selection: {{ company }}</span>
       </p>
   <!--  <tweetData :tweetData="tweets">
   </tweetData> -->
@@ -32,7 +32,8 @@ export default {
   data () {
     return {
       message: 'test message',
-      tweets: []
+      tweets: [],
+      company: '-'
     }
   },
   mounted () {
@@ -52,8 +53,8 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  margin-top: 60px;
-  padding:40px;
+  margin-top: 20px;
+  padding:20px;
   /* border: thin grey solid; */
 }
 </style>
