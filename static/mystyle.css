@@ -11,10 +11,14 @@
 
 */
 /* Header Styling */
+#header-bar {
+  background-color: #3B7B8E;
+  height: 35px;
+}
 #header-container {
   text-align: center;
   display: block;
-  margin-top: 2em;
+  margin-top: 5em;
 }
 #header-title {
   font-family: 'Mukta Vaani', sans-serif;
@@ -34,7 +38,6 @@
 /* Company Styling */
 #company-container {
   margin-top: 2em;
-  margin-left: 3.5em;
   margin-bottom: 2em;
   background-color: #F5F8FA;
 }
@@ -54,6 +57,7 @@
 #company-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-left: 0.5em;
+  margin-right: 0.5em;
   margin-top: 0.1em;
 }
 /* Twitter Styling */
@@ -74,10 +78,12 @@
 #explanatory-text {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-left: 0.5em;
+  margin-right: 0.5em;
 }
 /* Footer Styling */
 #footer-container {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
+  font-size: 15px;
   background-color: #3B7B8E;
   color: #F5F8FA;
 }
