@@ -18,7 +18,7 @@
       <div class="row">
       <div class="col-6" id="company-name">{{ company }}</div>
       <div class="col-6" id="company-logo">
-        <img src="static/boeing-logo.png" alt="Boeing Logo" style="width:300px;height:100px;">
+        <img src="logo" alt="Company Logo" style="width:300px;height:100px;">
         </div>
     </div>
     <div class="row" id="company-about">
@@ -69,6 +69,7 @@
   :about="about"
   :tweettext="tweettext"
   :analysis="analysis"
+  :logo="logo"
   >
   </tweetData>
   </div>
@@ -88,7 +89,8 @@ export default {
     return {
       message: 'test message',
       tweets: [],
-      company: '',
+      company: 'Select a company to see tweets and stock data',
+      logo: '',
       about: 'Choose a company using the drop down menu and text about the company will appear here.',
       analysis: 'Choose a company using the drop down menu and text analyzing the stock price will appear here',
       tweettext: 'Choose a company using the drop down menu and a tweet from @realDonaldTrump mentioning that company will appear here.'
