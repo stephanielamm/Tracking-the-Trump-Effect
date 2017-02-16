@@ -1,6 +1,42 @@
 <template>
-  <div class="col-6" id="stock-chart">
-  This is where the stock chart will go.
+<div class="stockData">
+<div class="row">
+<p>A chart will go here: {{ currentStockchart }}</p>
+</div>
+</div>
+</template>
+
+<script>
+export default {
+  name: 'stockData',
+  props: [
+    'tweets',
+    'currentCompany',
+    'currentCompanyData'
+  ],
+  data () {
+    return {
+    }
+  },
+  computed: {
+    currentStockchart () {
+      if (this.currentCompanyData) return this.currentCompanyData.stockchart
+    }
+  },
+  mounted () {
+  }
+}
+</script>
+<style>
+/* Stock Chart Styling */
+#stockData{
+  float: right;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+</style>
+
 <!--  <div id="container" style="height: 350px; min-width: 510px"></div>
   <script>
   // code from HighStocks; will need to figure out how to get relevant stock data
@@ -24,28 +60,3 @@
 });
 </script> -->
   <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
-  </div>
-    </div>
-  </template>
-    <script>
-    export default {
-      props: [
-        'tweets'
-      ],
-      data () {
-        return {
-        }
-      },
-      methods: {
-      }
-    }
-    </script>
-<style>
-/* Stock Chart Styling */
-#stock-chart {
-  float: right;
-  margin-right: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
-}
-</style>

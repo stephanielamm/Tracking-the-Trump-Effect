@@ -9,6 +9,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "6 Dec 2016",
 	"time": "8:52 AM",
+	"stockchart": "this will be a Boeing highstocks chart.",
 	"about": "Boeing is an aircraft manufacturer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -22,6 +23,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "9 Jan 2017",
 	"time": "9:14 AM",
+	"stockchart": "this will be a Fiat-Chrysler highstocks chart.",
 	"about": "fiat is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -35,6 +37,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "9 Jan 2017",
 	"time": "9:16 AM",
+	"stockchart": "this will be a Ford highstocks chart.",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -48,6 +51,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "5 Jan 2017",
 	"time": "1:14 PM",
+	"stockchart": "this will be a Toyota highstocks chart.",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -61,6 +65,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "8 Feb 2017",
 	"time": "10:51 AM",
+	"stockchart": "this will be a nordstrom highstocks chart.",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -74,6 +79,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "2 Dec 2016",
 	"time": "10:06 PM",
+	"stockchart": "this will be a Rexnord highstocks chart.",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -87,6 +93,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "30 Nov 2016",
 	"time": "10:48 PM",
+	"stockchart": "this will be a UT highstocks chart.",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },
@@ -100,6 +107,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "3 Jan 2017",
 	"time": "7:30 AM",
+	"stockchart": "this will be a GM highstocks chart.",
 	"about": "General Motors is an auto manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 }

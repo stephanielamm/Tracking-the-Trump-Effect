@@ -10,9 +10,6 @@
 import axios from 'axios'
 import Intro from './components/Intro'
 import dropDown from './components/dropDown'
-import tweetData from './components/tweetData'
-// import stockData from './components/stockData'
-// import analysis from './components/analysis'
 import footerBar from './components/footerBar'
 
 export default {
@@ -20,7 +17,6 @@ export default {
   components: {
     Intro,
     dropDown,
-    tweetData,
     footerBar
   },
 

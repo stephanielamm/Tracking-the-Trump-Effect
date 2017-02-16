@@ -10,11 +10,14 @@
 </tweetData>
 <analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
 </analysis>
+<stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+</stockData>
 </div>
 </template>
   <script>
   import tweetData from '../components/tweetData'
   import analysis from '../components/analysis'
+  import stockData from '../components/stockData'
   export default {
     props: [
       'tweets',
@@ -34,7 +37,8 @@
     },
     components: {
       tweetData,
-      analysis
+      analysis,
+      stockData
     },
     methods: {
     }
