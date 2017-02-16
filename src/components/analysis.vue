@@ -1,20 +1,28 @@
 <template>
+<div class="analysis">
 <div class="row">
-<div class="col-6" id="tweet-box">
-{{ tweettext }}
-  </div>
+<p>Effect on the stock: {{ currentAnalysis }}</p>
+</div>
 </div>
 </template>
 <script>
 export default {
+  name: 'analysis',
   props: [
-    'tweets'
+    'tweets',
+    'currentCompany',
+    'currentCompanyData'
   ],
   data () {
     return {
     }
   },
-  methods: {
+  computed: {
+    currentAnalysis () {
+      if (this.currentCompanyData) return this.currentCompanyData.analysis
+    }
+  },
+  mounted () {
   }
 }
 </script>

@@ -1,27 +1,33 @@
 <template>
   <div id="app">
+    <div class="tweetData">
     <div class="row">
     <div class="col-6" id="tweet-box">
-    {{ tweettext }}
+    <p>@realDonaldTrump: {{ currentTweettext }} </p>
       </div>
   </div>
   </div>
+</div>
 </template>
 
 <script>
 export default {
-  name: 'app',
+  name: 'tweetData',
   props: [
-    'tweetData'
+    'tweets',
+    'currentCompany',
+    'currentCompanyData'
   ],
   data () {
     return {
-      tweets: []
-      // tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
+    }
+  },
+  computed: {
+    currentTweettext () {
+      if (this.currentCompanyData) return this.currentCompanyData.tweettext
     }
   },
   mounted () {
-    console.log(this.tweets)
   }
 }
 </script>

@@ -2,12 +2,19 @@
   <div class="about">
   <div class="container">
   <div class="row" id="company-about">
-  <p> {{ currentAbout }}</p>
+  <p>About the company: {{ currentAbout }}</p>
 </div>
 </div>
+<tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+
+</tweetData>
+<analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+</analysis>
 </div>
 </template>
   <script>
+  import tweetData from '../components/tweetData'
+  import analysis from '../components/analysis'
   export default {
     props: [
       'tweets',
@@ -22,8 +29,11 @@
         return this.tweets[this.currentCompany]
       },
       currentAbout () {
-        return this.currentCompanyData.about
+        if (this.currentCompanyData) return this.currentCompanyData.about
       }
+    },
+    components: {
+      tweetData
     },
     methods: {
     }
