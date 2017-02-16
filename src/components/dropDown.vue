@@ -2,37 +2,45 @@
   <div class="dropDown">
     <!-- Dropdown menu to set company -->
     <p id="drop-down-menu">Company:
-    <select v-model="company" class="company">
+    <select v-model="currentCompany" class="company">
       <option value="Select a company to see tweets and stock data">Select a Company</option>
-      <option value="Boeing (BA)">Boeing</option>
-      <option value="Fiat-Chrysler (FCAU)">Fiat-Chrysler</option>
-      <option value="Ford (F)">Ford</option>
-      <option value="Toyota (TM)">Toyota</option>
-      <option value="Nordstrom (JWN)">Nordstrom</option>
-      <option value="Rexnord (RXN)">Rexnord</option>
-      <option value="United Technologies (UTX)">United Technologies</option>
-      <option value="General Motors (GM)">General Motors</option>
+      <option value="Boeing">Boeing</option>
+      <option value="Fiat-Chrysler">Fiat-Chrysler</option>
+      <option value="Ford">Ford</option>
+      <option value="Toyota">Toyota</option>
+      <option value="Nordstrom">Nordstrom</option>
+      <option value="Rexnord">Rexnord</option>
+      <option value="United Technologies">United Technologies</option>
+      <option value="General Motors">General Motors</option>
     </select>
   </br>
     <div class="container" id="company-container">
       <div class="row">
-      <div class="col-6" id="company-name">{{ company }}</div>
+      <div class="col-6" id="company-name">{{ currentCompany }}</div>
     </div>
   </div>
+  <about :currentCompany="currentCompany" :tweets="tweets">
+
+  </about>
 </div>
+
 </template>
 
 <script>
+import about from '../components/about'
 export default {
   props: [
     'tweets'
   ],
   data () {
     return {
-      company: 'Select a company to see tweets and stock data'
+      currentCompany: ''
     }
   },
   methods: {
+  },
+  components: {
+    about
   }
 }
 </script>

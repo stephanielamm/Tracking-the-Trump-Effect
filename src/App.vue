@@ -1,21 +1,18 @@
 <template>
   <div id="app">
       <Intro></Intro>
-      <dropDown></dropDown>
-<!-- <logo></logo>
-      <about></about>
-      <tweetData></tweetData>
+      <dropDown :tweets="tweets"></dropDown>
+      <!--   <tweetData></tweetData>
       <stockData></stockData>
       <analysis></analysis> -->
       <footerBar></footerBar>
-  <tweetData
-  :company="company"
+  <!-- <tweetData
   :about="about"
   :tweettext="tweettext"
   :analysis="analysis"
   :logo="logo"
   >
-  </tweetData>
+  </tweetData> -->
   </div>
 </template>
 
@@ -23,7 +20,6 @@
 import axios from 'axios'
 import Intro from './components/Intro'
 import dropDown from './components/dropDown'
-// import about from './components/about'
 // import logo from './components/logo'
 import tweetData from './components/tweetData'
 // import stockData from './components/stockData'

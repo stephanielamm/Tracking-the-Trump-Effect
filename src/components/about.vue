@@ -1,25 +1,36 @@
 <template>
   <div class="about">
+  <div class="container">
   <div class="row" id="company-about">
-  <p> {{ about }}</p>
-  </div>
+  <p> {{ currentAbout }}</p>
+</div>
+</div>
 </div>
 </template>
   <script>
   export default {
     props: [
-      'tweets'
+      'tweets',
+      'currentCompany'
     ],
     data () {
       return {
-        about: 'Text about the company will appear here.'
+      }
+    },
+    computed: {
+      currentCompanyData () {
+        return this.tweets[this.currentCompany]
+      },
+      currentAbout () {
+        return this.currentCompanyData.about
       }
     },
     methods: {
     }
   }
-  </script>
+</script>
 <style>
+/* About company styling */
 #company-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-left: 0.5em;

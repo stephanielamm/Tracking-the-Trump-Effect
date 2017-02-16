@@ -1,4 +1,5 @@
-[{
+{
+	"Boeing": {
 	"company": "Boeing",
 	"ticker": "BA",
 	"logo": "static/boeing-logo.png",
@@ -10,7 +11,8 @@
 	"time": "8:52 AM",
 	"about": "Boeing is an aircraft manufacturer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"Fiat-Chrysler":{
 	"company": "Fiat-Chrysler",
 	"ticker": "FCAU",
 	"logo": "static/fca-logo.png",
@@ -20,9 +22,10 @@
 	"handle": "@realDonaldTrump",
 	"date": "9 Jan 2017",
 	"time": "9:14 AM",
-	"about": "Boeing is an aircraft manufactuerer.",
+	"about": "fiat is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"Ford":{
 	"company": "Ford",
 	"ticker": "F",
 	"logo": "static/ford-logo.png",
@@ -34,7 +37,8 @@
 	"time": "9:16 AM",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"Toyota": {
 	"company": "Toyota",
 	"ticker": "TM",
 	"logo": "static/toyota-logo.png",
@@ -46,7 +50,8 @@
 	"time": "1:14 PM",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"Nordstrom":{
 	"company": "Nordstrom",
 	"ticker": "JWN",
 	"logo": "static/nordstrom-logo.png",
@@ -58,7 +63,8 @@
 	"time": "10:51 AM",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"Rexnord":{
 	"company": "Rexnord",
 	"ticker": "RXN",
 	"logo": "static/rexnord-logo.png",
@@ -70,7 +76,8 @@
 	"time": "10:06 PM",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"United Technologies":{
 	"company": "United Technologies",
 	"ticker": "UTX",
 	"logo": "static/ut-logo.png",
@@ -82,7 +89,8 @@
 	"time": "10:48 PM",
 	"about": "Boeing is an aircraft manufactuerer.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
-}, {
+},
+	"General Motors": {
 	"company": "General Motors",
 	"ticker": "GM",
 	"logo": "static/gm-logo.png",
@@ -93,5 +101,6 @@
 	"date": "3 Jan 2017",
 	"time": "7:30 AM",
 	"about": "General Motors is an auto manufactuerer.",
-	"analysis": "Trump's tweet caused the stock to change in this way.",
-}]
+	"analysis": "Trump's tweet caused the stock to change in this way."
+}
+}
