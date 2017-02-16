@@ -33,7 +33,8 @@
       }
     },
     components: {
-      tweetData
+      tweetData,
+      analysis
     },
     methods: {
     }

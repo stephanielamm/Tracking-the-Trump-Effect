@@ -19,9 +19,7 @@
       <div class="col-6" id="company-name">{{ currentCompany }}</div>
     </div>
   </div>
-  <about :currentCompany="currentCompany" :tweets="tweets">
-
-  </about>
+  <about :currentCompany="currentCompany" :tweets="tweets"></about>
 </div>
 
 </template>

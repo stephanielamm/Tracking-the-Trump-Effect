@@ -5,6 +5,7 @@
 </div>
 </div>
 </template>
+
 <script>
 export default {
   name: 'analysis',
@@ -26,6 +27,7 @@ export default {
   }
 }
 </script>
+
 <style>
 /* Explanatory Text Box Styling */
 #analysis {
