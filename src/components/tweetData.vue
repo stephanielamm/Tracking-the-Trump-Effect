@@ -27,5 +27,11 @@ export default {
 </script>
 
 <style>
+#tweet-box {
+  float: left;
+  margin-left: 3.5em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
 
 </style>

@@ -25,3 +25,13 @@
   <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
   </div>
     </div>
+
+<style>
+/* Stock Chart Styling */
+#stock-chart {
+  float: right;
+  margin-right: 2em;
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+</style>
