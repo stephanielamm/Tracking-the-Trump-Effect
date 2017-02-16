@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div class="dropDown">
     <!-- Dropdown menu to set company -->
     <p id="drop-down-menu">Company:
     <select v-model="company" class="company">
@@ -17,38 +17,25 @@
     <div class="container" id="company-container">
       <div class="row">
       <div class="col-6" id="company-name">{{ company }}</div>
-      <div class="col-6" id="company-logo">
-        <img src="static/boeing-logo.png" alt="Company Logo" style="width:300px;height:100px;">
-        </div>
     </div>
   </div>
+</div>
 </template>
 
 <script>
-
 export default {
-  name: 'app',
-  props: {
-    'company'
-  },
-
+  props: [
+    'tweets'
+  ],
   data () {
     return {
-      company: 'Select a company to see tweets and stock data',
-      logo: '',
-      about: 'Text about the company will appear here.',
-      analysis: 'Text analyzing the stock price will appear here',
-      tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
+      company: 'Select a company to see tweets and stock data'
     }
   },
   methods: {
-
-  },
-  mounted () {
   }
 }
 </script>
-
 <style>
 #app {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
@@ -74,10 +61,5 @@ export default {
   float: left;
   margin-left: 2em;
   margin-top: 2em;
-}
-#company-logo {
-  float: right;
-  margin-top: 1em;
-  margin-right: 1em;
 }
 </style>

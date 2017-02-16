@@ -1,6 +1,10 @@
 <template>
   <div id="app">
-<!-- {{ message }} -->
+    <div class="row">
+    <div class="col-6" id="tweet-box">
+    {{ tweettext }}
+      </div>
+  </div>
   </div>
 </template>
 
@@ -12,12 +16,7 @@ export default {
   ],
   data () {
     return {
-      message: 'test message',
       tweets: [],
-      company: 'Select a company to see tweets and stock data',
-      logo: '',
-      about: 'Text about the company will appear here.',
-      analysis: 'Text analyzing the stock price will appear here',
       tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
     }
   },

@@ -2,69 +2,10 @@
   <div id="app">
 
       <Intro></Intro>
+      <dropDown></dropDown>
 
     <!-- Dropdown menu to set company -->
-    <p id="drop-down-menu">Company:
-    <select v-model="company" class="company">
-      <option value="Select a company to see tweets and stock data">Select a Company</option>
-      <option value="Boeing (BA)">Boeing</option>
-      <option value="Fiat-Chrysler (FCAU)">Fiat-Chrysler</option>
-      <option value="Ford (F)">Ford</option>
-      <option value="Toyota (TM)">Toyota</option>
-      <option value="Nordstrom (JWN)">Nordstrom</option>
-      <option value="Rexnord (RXN)">Rexnord</option>
-      <option value="United Technologies (UTX)">United Technologies</option>
-      <option value="General Motors (GM)">General Motors</option>
-    </select>
-  </br>
-    <div class="container" id="company-container">
-      <div class="row">
-      <div class="col-6" id="company-name">{{ company }}</div>
-      <div class="col-6" id="company-logo">
-        <img src="static/boeing-logo.png" alt="Company Logo" style="width:300px;height:100px;">
-        </div>
-    </div>
-    <div class="row" id="company-about">
-      <p> {{ about }}</p>
-      </div>
-    <div class="row">
-    <div class="col-6" id="tweet-box">
-    {{ tweettext }}
-      </div>
-    <div class="col-6" id="stock-chart">
-      This is where the stock chart will go.
-    <!--  <div id="container" style="height: 350px; min-width: 510px"></div>
-      <script>
-      // code from HighStocks; will need to figure out how to get relevant stock data
-      $.getJSON('https://www.highcharts.com/samples/data/jsonp.php?filename=aapl-c.json&callback=?', function (data) {
-        // Create the chart
-      Highcharts.stockChart('container', {
-        rangeSelector: {
-            selected: 1
-        },
-        title: {
-            text: 'AAPL Stock Price'
-        },
-        series: [{
-            name: 'AAPL',
-            data: data,
-            tooltip: {
-                valueDecimals: 2
-            }
-        }]
-    });
-});
-</script> -->
-      <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
-      </div>
-        </div>
-      <div class="row" id="analysis">
-      <div class="col-12">
-      <p>{{ analysis }}</p>
-    </div>
-  </div>
-  </div>
-      </p>
+
   <tweetData
   :company="company"
   :about="about"
@@ -79,7 +20,7 @@
 <script>
 import axios from 'axios'
 import Intro from './components/Intro'
-// import dropDown from './components/dropDown'
+import dropDown from './components/dropDown'
 // import about from './components/about'
 // import logo from './components/logo'
 import tweetData from './components/tweetData'
@@ -90,7 +31,7 @@ export default {
   name: 'app',
   components: {
     Intro,
-  //  dropDown,
+    dropDown,
   //  about,
   //  logo,
     tweetData // ,
