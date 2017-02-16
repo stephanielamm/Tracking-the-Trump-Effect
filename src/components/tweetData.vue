@@ -16,8 +16,8 @@ export default {
   ],
   data () {
     return {
-      tweets: [],
-      tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
+      tweets: []
+      // tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
     }
   },
   mounted () {

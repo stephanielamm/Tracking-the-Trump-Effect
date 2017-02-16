@@ -13,22 +13,3 @@
 [v-cloak] {
   display: none;
 }
-/* Footer Styling */
-#footer-container {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  height: 20px;
-  font-size: 10px;
-  background-color: #3B7B8E;
-  color: #F5F8FA;
-}
-#footer-name {
-  float: left;
-  margin-top: 3px;
-}
-#footer-datasource {
-  margin-top: 3px;
-}
-#footer-codesource {
-  margin-top: 3px;
-  float: right;
-}

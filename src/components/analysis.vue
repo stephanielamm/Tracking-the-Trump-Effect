@@ -1,9 +1,23 @@
+<template>
 <div class="row">
 <div class="col-6" id="tweet-box">
 {{ tweettext }}
   </div>
 </div>
-
+</template>
+<script>
+export default {
+  props: [
+    'tweets'
+  ],
+  data () {
+    return {
+    }
+  },
+  methods: {
+  }
+}
+</script>
 <style>
 /* Explanatory Text Box Styling */
 #analysis {

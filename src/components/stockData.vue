@@ -1,4 +1,5 @@
-<div class="col-6" id="stock-chart">
+<template>
+  <div class="col-6" id="stock-chart">
   This is where the stock chart will go.
 <!--  <div id="container" style="height: 350px; min-width: 510px"></div>
   <script>
@@ -25,7 +26,20 @@
   <!-- will have component for stock chart (made with Highstock API) (to right of the page) -->
   </div>
     </div>
-
+  </template>
+    <script>
+    export default {
+      props: [
+        'tweets'
+      ],
+      data () {
+        return {
+        }
+      },
+      methods: {
+      }
+    }
+    </script>
 <style>
 /* Stock Chart Styling */
 #stock-chart {

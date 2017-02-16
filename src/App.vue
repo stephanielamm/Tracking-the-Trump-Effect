@@ -1,11 +1,13 @@
 <template>
   <div id="app">
-
       <Intro></Intro>
       <dropDown></dropDown>
-
-    <!-- Dropdown menu to set company -->
-
+<!-- <logo></logo>
+      <about></about>
+      <tweetData></tweetData>
+      <stockData></stockData>
+      <analysis></analysis> -->
+      <footerBar></footerBar>
   <tweetData
   :company="company"
   :about="about"
@@ -26,6 +28,7 @@ import dropDown from './components/dropDown'
 import tweetData from './components/tweetData'
 // import stockData from './components/stockData'
 // import analysis from './components/analysis'
+import footerBar from './components/footerBar'
 
 export default {
   name: 'app',
@@ -34,20 +37,18 @@ export default {
     dropDown,
   //  about,
   //  logo,
-    tweetData // ,
+    tweetData,
   //  stockData,
-  //  analysis
+  //  analysis,
+    footerBar
   },
 
   data () {
     return {
-      message: 'test message',
-      tweets: [],
-      company: 'Select a company to see tweets and stock data',
-      logo: '',
-      about: 'Text about the company will appear here.',
-      analysis: 'Text analyzing the stock price will appear here',
-      tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
+      tweets: []
+    //  logo: '',
+    //  analysis: 'Text analyzing the stock price will appear here',
+    //  tweettext: 'A tweet from @realDonaldTrump mentioning that company will appear here.'
     }
   },
   mounted () {
