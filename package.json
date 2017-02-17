@@ -1,7 +1,7 @@
 {
   "name": "vue-project-1",
   "version": "1.0.0",
-  "description": "A Vue.js project",
+  "description": "Tracking the Trump Effect by exploring historical stock data.",
   "author": "stephanielamm <slamm5@live.unc.edu>",
   "private": true,
   "scripts": {

@@ -3,7 +3,7 @@
     <!-- Dropdown menu to set company -->
     <p id="drop-down-menu">Select a company:
     <select v-model="currentCompany" class="company">
-      <option value="Select a company to view data">Select a Company</option>
+      <option value="">Select a Company</option>
       <option value="Boeing">Boeing</option>
       <option value="Fiat-Chrysler">Fiat-Chrysler</option>
       <option value="Ford">Ford</option>

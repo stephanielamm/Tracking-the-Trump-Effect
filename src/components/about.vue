@@ -5,7 +5,6 @@
   <p>{{ currentAbout }}</p>
 </div>
 </div>
-
 <div class="row">
   <div class="col-5">
     <tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
@@ -69,9 +68,6 @@
 }
 .about {
   font-size: 25px;
-}
-.chart {
-  float: right;
 }
 .analysis {
   font-size: 25px;
