@@ -1,9 +1,9 @@
 <template>
   <div class="dropDown">
     <!-- Dropdown menu to set company -->
-    <p id="drop-down-menu">Company:
+    <p id="drop-down-menu">Select a company to view data:
     <select v-model="currentCompany" class="company">
-      <option value="The Trump Effect">Select a Company</option>
+      <option value="Select a company to view data">Select a Company</option>
       <option value="Boeing">Boeing</option>
       <option value="Fiat-Chrysler">Fiat-Chrysler</option>
       <option value="Ford">Ford</option>
@@ -32,7 +32,7 @@ export default {
   ],
   data () {
     return {
-      currentCompany: 'The Trump Effect'
+      currentCompany: ''
     }
   },
   methods: {

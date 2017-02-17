@@ -1,7 +1,7 @@
 <template>
 <div class="analysis">
 <div class="row">
-<p><span style="font-weight:bold;">Trump Effect: </span>{{ currentAnalysis }}</p>
+<p><span style="font-weight:bold;"></span>{{ currentAnalysis }}</p>
 </div>
 </div>
 </template>
