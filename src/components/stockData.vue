@@ -25,39 +25,41 @@ export default {
   },
   mounted () {
     var Highcharts = require('highcharts/highstock')
-    $.get('../static/newboeing1.csv', function (csv) {
-      console.log(csv)
-      Highcharts.chart('container', {
-        data: {
-          csv: csv
-        },
-        chart: {
-          type: 'line'
-        },
-        xAxis: {
-          type: 'datetime',
+    $(function () {
+      $.get('../static/newboeing1.csv', function (stocks) {
+        console.log(stocks)
+        Highcharts.chart('container', {
+          data: {
+            data: stocks
+          },
+          chart: {
+            type: 'line'
+          },
+          xAxis: {
+            type: 'datetime',
+            title: {
+              text: 'Date'
+            }
+          },
+          yAxis: {
+            title: {
+              text: 'Price'
+            }
+          },
+          legend: {
+            enabled: false
+          },
           title: {
-            text: 'Date'
-          }
-        },
-        yAxis: {
-          title: {
-            text: 'Price'
-          }
-        },
-        legend: {
-          enabled: false
-        },
-        title: {
-          text: 'Stock Price'
-        },
-        series: [{
-          name: 'AAPL',
-          data: csv,
-          tooltip: {
-            valueDecimals: 2
-          }
-        }]
+            text: 'Stock Price'
+          },
+          series: [{
+            name: 'AAPL',
+            data: stocks,
+            tooltip: {
+              valueDecimals: 2
+            }
+          }]
+        })
       })
     })
   },
@@ -77,8 +79,8 @@ export default {
 /* Stock Chart Styling */
 .stockData{
   float: right;
-  height: 230px;
-  width: 500px;
+  height: 130px;
+  width: 350px;
   border: 1px solid grey;
   border-radius:5px;
   padding: 8px;
