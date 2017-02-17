@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <div v-show="hideTwitter" class="container tweetData">
+    <div v-show="currentCompany !== ''" class="container tweetData">
     <p><img src="static/dt.jpg" style="float:left; width:55px; height:55px; border:1px solid white; border-radius:5px; margin:3px 8px 8px 0px;">
       <span style="font-weight:bold; padding-bottom:0px; font-size:22px;">Donald J. Trump</span>
     </br>
@@ -20,14 +20,12 @@ export default {
   ],
   data () {
     return {
-      hideTwitter: true
     }
   },
   computed: {
     // Will show tweet based on current company only if current company is not null
     currentTweettext () {
       if (this.currentCompanyData) return this.currentCompanyData.tweettext
-      this.hideTwitter = false
     }
   },
   methods: {
