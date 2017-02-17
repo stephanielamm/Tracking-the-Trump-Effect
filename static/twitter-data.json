@@ -11,7 +11,7 @@
 	"time": "8:52 AM",
 	"stockchart": "BA&t=6m&q=l&l=on&z=s&p=m50,m200",
 	"about": "Boeing is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites worldwide. Boeing is tasked with constructing Air Force One.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet cause Boeing's stock to fall for a few hours. The company's valuation dropped $1 billion by the end of the day. Within a few days, the stock had recovered."
 },
 	"Fiat-Chrysler":{
 	"company": "Fiat-Chrysler",
@@ -25,7 +25,7 @@
 	"time": "9:14 AM",
 	"stockchart": "this will be a Fiat-Chrysler highstocks chart.",
 	"about": "Fiat Chrysler Automobiles is an Italian-controlled Dutch multinational corporation and currently the world’s seventh-largest auto maker. Trump praised the automaker for investing in the US.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet caused the stock to spike slightly for a day, but trading returned to normal by the next day."
 },
 	"Ford":{
 	"company": "Ford",
@@ -39,7 +39,7 @@
 	"time": "9:16 AM",
 	"stockchart": "this will be a Ford highstocks chart.",
 	"about": "Ford Motor Company is an American multinational automaker headquartered in Dearborn, Michigan, a suburb of Detroit. On the campaign trail, Trump criticized Ford for deciding to move its small car production from Michigan to Mexico. In January, Ford canceled plans to build a $1.6 billion plant in Mexico, citing Trump's pro-business policies along with declining car sales.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet had little affect on Ford's stock. By the end of the month the stock was up 3 percent."
 },
 	"Toyota": {
 	"company": "Toyota",
@@ -53,7 +53,7 @@
 	"time": "1:14 PM",
 	"stockchart": "this will be a Toyota highstocks chart.",
 	"about": "Toyota is a Japanese automotive manufacturer headquartered in Toyota, Aichi, Japan.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet caused a momentary spike in Toyota's trading volume, but Trump's attentions failed to move the 20-day average."
 },
 	"Nordstrom":{
 	"company": "Nordstrom",
@@ -67,7 +67,7 @@
 	"time": "10:51 AM",
 	"stockchart": "this will be a nordstrom highstocks chart.",
 	"about": "Nordstrom is an American chain of luxury department stores headquartered in Seattle. On February 2, 2017, Nordstrom announced it would cease to carry Ivanka Trump's fashion line, citing weak sales. President Trump responded with a tweet directed at Nordstrom, condemning the brand for its treatment of his daughter.",
-	"analysis": " The company's stock dropped by 0.65% in the aftermath of the tweet before ending the day with a gain of more than 4%."
+	"analysis": "The company's stock dropped by 0.65 percent in the aftermath of the tweet before ending the day with a gain of more than 4 percent."
 },
 	"Rexnord":{
 	"company": "Rexnord",
@@ -81,7 +81,7 @@
 	"time": "10:06 PM",
 	"stockchart": "this will be a Rexnord highstocks chart.",
 	"about": "Rexnord is a Milwaukee-based manufactuer of bearings and other metal products. In December 2016, President-elect Donald Trump criticized the company for firing 300 out of its 7,700 employees and argued with a union representative.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet caused the stock to rise 5.7 percent the day of the tweet."
 },
 	"United Technologies":{
 	"company": "United Technologies",
@@ -95,7 +95,7 @@
 	"time": "10:48 PM",
 	"stockchart": "this will be a UT highstocks chart.",
 	"about": "Carrier, a subsidiary of United Technologies, manufactures heating, ventilation, air conditioning, and refrigeration systems. In February 2016, Carrier announced to employees at its Indianapolis plant that Carrier is moving manufacturing to Mexico. In December, Carrier reached a deal with Trump and Pence to keep the Indianapolis plant open, keeping 800 jobs in Indianapolis. United Technologies is a large military contractor, getting about 10% of its revenue from the U.S. government.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet caused the stock to reach a 16-month high on the day of the tweet, but by market close its gains were a moderate 1 percent."
 },
 	"General Motors": {
 	"company": "General Motors",
@@ -109,6 +109,6 @@
 	"time": "7:30 AM",
 	"stockchart": "this will be a GM highstocks chart.",
 	"about": "GM is an American multinational corporation headquartered in Detroit, Michigan, that designs, manufactures, markets, and distributes vehicles and vehicle parts, and sells financial services. With global headquarters in Detroit, Michigan, GM manufactures cars and trucks in 35 countries.",
-	"analysis": "Trump's tweet caused the stock to change in this way."
+	"analysis": "Trump's tweet caused the stock to immediately fall 0.7 percent, however the stock rose 6.2 percent by the end of the month."
 }
 }
