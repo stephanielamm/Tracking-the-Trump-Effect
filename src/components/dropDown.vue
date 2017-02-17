@@ -3,7 +3,7 @@
     <!-- Dropdown menu to set company -->
     <p id="drop-down-menu">Company:
     <select v-model="currentCompany" class="company">
-      <option value="Select a company to see tweets and stock data">Select a Company</option>
+      <option value="Select a company to explore the Trump Effect">Select a Company</option>
       <option value="Boeing">Boeing</option>
       <option value="Fiat-Chrysler">Fiat-Chrysler</option>
       <option value="Ford">Ford</option>
@@ -14,7 +14,7 @@
       <option value="General Motors">General Motors</option>
     </select>
   </br>
-    <div class="container">
+    <div class="container company-container">
       <div class="row company-name">{{ currentCompany }}</div>
     </div>
   <about :currentCompany="currentCompany" :tweets="tweets"></about>
@@ -51,11 +51,16 @@ export default {
   text-align: center;
   font-size: 25px;
 }
+.company-container {
+  background-color: #F5F8FA;
+  width: 85%;
+  height:100px;
+
+}
 .company-name {
+  padding: 1em 3em 3em 1em;
   font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
   font-size: 50px;
-  background-color: #F5F8FA;
-  padding: 0.5em 1em 0em;
 }
 </style>

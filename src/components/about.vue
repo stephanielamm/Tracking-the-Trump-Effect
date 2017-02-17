@@ -2,7 +2,7 @@
   <div class="container box">
   <div class="row about">
   <div class="col col-lg-12">
-  <p>About the company: {{ currentAbout }}</p>
+  <p>{{ currentAbout }}</p>
 </div>
 </div>
 
@@ -60,18 +60,18 @@
 <style>
 .box {
   background-color: #F5F8FA;
+  width: 85%;
+  height: auto;
   margin-bottom: 75px;
   padding: 1em 3em 3em 3em;
 }
 .about {
   font-size: 25px;
-  font-weight: bold;
 }
 .chart {
   float: right;
 }
 .analysis {
   font-size: 25px;
-  font-weight: bold;
 }
 </style>
