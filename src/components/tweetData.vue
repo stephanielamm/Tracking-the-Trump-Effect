@@ -1,12 +1,9 @@
 <template>
   <div id="app">
     <div class="tweetData">
-    <div class="row">
-    <div class="col">
-    <p>@realDonaldTrump: {{ currentTweettext }} </p>
+    <p><img src="static/dt.jpg" style="float:left; width:50px; height:50px; border:1px solid white; border-radius:5px; margin:1px 10px 3px 0px;">
+      <span style="color:#1DA1F2; padding-left:10px;">@realDonaldTrump:</span> {{ currentTweettext }} </p>
       </div>
-  </div>
-  </div>
 </div>
 </template>
 
@@ -38,7 +35,12 @@ export default {
 }
 .tweetData {
   float: left;
-  color: #1DA1F2;
+  border: 1px solid grey;
+  border-radius:5px;
+  padding: 4px;
+  background-color: lightblue;
+  margin: 15px;
+  color: black;
 }
 
 </style>

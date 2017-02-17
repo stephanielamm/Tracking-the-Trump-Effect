@@ -38,7 +38,8 @@ export default {
 }
 .header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 22px;
+  font-size: 25px;
   color: grey;
+  margin: 0 2em 1.5em;
 }
 </style>

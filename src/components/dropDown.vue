@@ -47,7 +47,7 @@ export default {
   -moz-osx-font-smoothing: grayscale;
 }
 #drop-down-menu {
-  margin: 2em 4em 3em 4em;
+  margin: 0.5em 4em 3em 0.5em;
   text-align: center;
   font-size: 25px;
 }
@@ -56,7 +56,6 @@ export default {
   font-weight: bold;
   font-size: 50px;
   background-color: white;
-  padding-left: 1em;
-  padding-top: 1em;
+  padding: 0.5em 1em 0em;
 }
 </style>
