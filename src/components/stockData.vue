@@ -5,7 +5,7 @@
 </template>
 
 <script>
-import $ from 'jquery'
+// import $ from 'jquery'
 
 export default {
   name: 'stockData',
@@ -25,8 +25,8 @@ export default {
   },
   mounted () {
     var Highcharts = require('highcharts/highstock')
-    $(function () {
-      $.get('/static/newboeing1.csv', function (csv) {
+    window.$(function () {
+      window.$.get('/static/newboeing1.csv', function (csv) {
         console.log(csv)
         Highcharts.chart('container', {
           data: {
