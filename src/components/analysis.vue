@@ -32,7 +32,7 @@ export default {
 /* Explanatory Text Box Styling */
 #analysis {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
+  margin-left: 1em;
+  margin-right: 1em;
 }
 </style>
