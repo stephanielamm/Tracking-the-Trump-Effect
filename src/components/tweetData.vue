@@ -49,5 +49,12 @@ export default {
   color: black;
   font-size: 25px;
 }
+@media only screen and (max-width: 1275px) {
+    /* For mobile phones: */
+    .tweetData {
+      width: 100%;
+
+    }
+}
 
 </style>

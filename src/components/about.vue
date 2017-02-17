@@ -7,23 +7,25 @@
 </div>
 
 <div class="row">
-  <div class="col-lg-5">
+  <div class="col-5">
     <tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
     </tweetData>
   </div>
-<div class="col-lg-5 chart">
+<div class="col-5 chart">
     <stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
     </stockData>
 </div>
 </div>
-
+</br>
 <div class="row analysis">
-  <div class="col col-lg-12">
+  <div class="col-12">
     <analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
     </analysis>
   </div>
 </div>
-
+<div class="row footer">
+<div class="col-12">Stock data from Yahoo Finance. Tweets from @realDonaldTrump. Stock charts made using Highstock API.</div>
+</div>
 </div>
 
 </template>
@@ -63,7 +65,7 @@
   width: 85%;
   height: auto;
   margin-bottom: 75px;
-  padding: 1em 3em 3em 3em;
+  padding: 1em 3em 0.2em 3em;
 }
 .about {
   font-size: 25px;
@@ -73,5 +75,35 @@
 }
 .analysis {
   font-size: 25px;
+}
+.footer {
+  width: 100%;
+  font-size: 12px;
+  color: grey;
+  text-align: left;
+}
+
+/* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 1275px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+        width: 100%;
+    }
+    .footer {
+      font-size: 9px;
+    }
 }
 </style>

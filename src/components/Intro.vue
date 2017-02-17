@@ -34,12 +34,12 @@ export default {
 }
 .header-title {
   font-family: 'Mukta Vaani', sans-serif;
-  font-size: 50px;
+  font-size: 40px;
   color: #3B7B8E;
 }
 .header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 18px;
   color: grey;
   margin: 0 5em 0.5em;
 }

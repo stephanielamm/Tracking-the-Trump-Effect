@@ -3,7 +3,7 @@
     <!-- Dropdown menu to set company -->
     <p id="drop-down-menu">Company:
     <select v-model="currentCompany" class="company">
-      <option value="Select a company to explore the Trump Effect">Select a Company</option>
+      <option value="The Trump Effect">Select a Company</option>
       <option value="Boeing">Boeing</option>
       <option value="Fiat-Chrysler">Fiat-Chrysler</option>
       <option value="Ford">Ford</option>
@@ -15,7 +15,9 @@
     </select>
   </br>
     <div class="container company-container">
-      <div class="row company-name">{{ currentCompany }}</div>
+      <div class="row company-name">
+        <div class="col-12">{{ currentCompany }}</div>
+        </div>
     </div>
   <about :currentCompany="currentCompany" :tweets="tweets"></about>
 </div>
@@ -30,7 +32,7 @@ export default {
   ],
   data () {
     return {
-      currentCompany: 'Select a company to explore the Trump Effect'
+      currentCompany: 'The Trump Effect'
     }
   },
   methods: {
@@ -61,6 +63,7 @@ export default {
   padding: 1em 3em 3em 1em;
   font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
-  font-size: 50px;
+  font-size: 40px;
 }
+
 </style>

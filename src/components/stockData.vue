@@ -26,11 +26,14 @@ export default {
   mounted () {
     var Highcharts = require('highcharts/highstock')
     $(function () {
-      $.get('../static/newboeing1.csv', function (stocks) {
-        console.log(stocks)
+      $.get('../static/newboeing1.csv', function (csv) {
+        console.log(csv)
         Highcharts.chart('container', {
           data: {
-            data: stocks
+            rows: csv.data,
+            seriesMapping: [{
+              label: 2
+            }]
           },
           chart: {
             type: 'line'
@@ -54,7 +57,7 @@ export default {
           },
           series: [{
             name: 'AAPL',
-            data: stocks,
+            data: csv,
             tooltip: {
               valueDecimals: 2
             }
