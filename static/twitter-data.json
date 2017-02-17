@@ -9,7 +9,7 @@
 	"handle": "@realDonaldTrump",
 	"date": "6 Dec 2016",
 	"time": "8:52 AM",
-	"stockchart": "this will be a Boeing highstocks chart.",
+	"stockchart": "BA&t=6m&q=l&l=on&z=s&p=m50,m200",
 	"about": "Boeing is an American multinational corporation that designs, manufactures, and sells airplanes, rotorcraft, rockets, and satellites worldwide. Boeing is tasked with constructing Air Force One.",
 	"analysis": "Trump's tweet caused the stock to change in this way."
 },

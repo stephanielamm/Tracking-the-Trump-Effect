@@ -1,10 +1,12 @@
 <template>
 <div class="stockData">
-<p>A chart will go here: {{ currentStockchart }}</p>
+<div id="container"></div>
 </div>
 </template>
 
 <script>
+import $ from 'jquery'
+
 export default {
   name: 'stockData',
   props: [
@@ -17,11 +19,57 @@ export default {
     }
   },
   computed: {
-    currentStockchart () {
-      if (this.currentCompanyData) return this.currentCompanyData.stockchart
-    }
+    // currentStockchart () {
+    //   if (this.currentCompanyData) return this.currentCompanyData.stockchart
+    // }
   },
   mounted () {
+    var Highcharts = require('highcharts/highstock')
+    $.get('../static/newboeing1.csv', function (csv) {
+      console.log(csv)
+      Highcharts.chart('container', {
+        data: {
+          csv: csv
+        },
+        chart: {
+          type: 'line'
+        },
+        xAxis: {
+          type: 'datetime',
+          title: {
+            text: 'Date'
+          }
+        },
+        yAxis: {
+          title: {
+            text: 'Price'
+          }
+        },
+        legend: {
+          enabled: false
+        },
+        title: {
+          text: 'Stock Price'
+        },
+        series: [{
+          name: 'AAPL',
+          data: csv,
+          tooltip: {
+            valueDecimals: 2
+          }
+        }]
+      })
+    })
+  },
+  methods: {
+    drawChart: function () {
+
+    }
+  },
+  watch: {
+    currentCompanyData: function () {
+      this.drawChart()
+    }
   }
 }
 </script>
