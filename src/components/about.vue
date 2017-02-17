@@ -83,7 +83,7 @@
   text-align: left;
 }
 
-/* For desktop: */
+/* For Desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
 .col-3 {width: 25%;}
@@ -97,8 +97,8 @@
 .col-11 {width: 91.66%;}
 .col-12 {width: 100%;}
 
+    /* For Mobile */
 @media only screen and (max-width: 1275px) {
-    /* For mobile phones: */
     [class*="col-"] {
         width: 100%;
     }
