@@ -1,8 +1,6 @@
 <template>
 <div class="stockData">
-<div class="row">
 <p>A chart will go here: {{ currentStockchart }}</p>
-</div>
 </div>
 </template>
 
@@ -29,11 +27,17 @@ export default {
 </script>
 <style>
 /* Stock Chart Styling */
-#stockData{
+.stockData{
   float: right;
-  margin-right: 2em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  height: 230px;
+  width: 500px;
+  border: 1px solid grey;
+  border-radius:5px;
+  padding: 8px;
+  background-color: red;
+  margin: 25px 0px;
+  color: black;
+  font-size: 25px;
 }
 </style>
 

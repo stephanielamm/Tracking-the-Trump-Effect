@@ -1,8 +1,11 @@
 <template>
   <div id="app">
-    <div class="tweetData">
-    <p><img src="static/dt.jpg" style="float:left; width:50px; height:50px; border:1px solid white; border-radius:5px; margin:1px 10px 3px 0px;">
-      <span style="color:#1DA1F2; padding-left:10px;">@realDonaldTrump:</span> {{ currentTweettext }} </p>
+    <div class="container tweetData">
+    <p><img src="static/dt.jpg" style="float:left; width:55px; height:55px; border:1px solid white; border-radius:5px; margin:3px 8px 8px 0px;">
+      <span style="font-weight:bold; padding-bottom:0px; font-size:22px;">Donald J. Trump</span>
+    </br>
+      <span style="color:#1DA1F2; padding-top:0px; font-size:18px;" >@realDonaldTrump</span></br>
+      {{ currentTweettext }}</p>
       </div>
 </div>
 </template>
@@ -31,16 +34,20 @@ export default {
 
 <style>
 #app {
-  background-color: #F5F8FA;
+
 }
 .tweetData {
+  font-family: 'Mukta Vaani', sans-serif;
+  height: 230px;
+  width: 500px;
   float: left;
-  border: 1px solid grey;
+  border: 4px solid #DCF5FF;
   border-radius:5px;
-  padding: 4px;
-  background-color: lightblue;
-  margin: 15px;
+  padding: 8px;
+  background-color: white;
+  margin: 25px 0px;
   color: black;
+  font-size: 25px;
 }
 
 </style>

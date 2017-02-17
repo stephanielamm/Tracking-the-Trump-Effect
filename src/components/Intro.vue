@@ -3,8 +3,9 @@
     <div class="header-bar"></div>
     <div class="container-fluid header-container">
     <div class="row header-title">When Trump Tweets About Public Companies</div>
-    <div class="row header-about">This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project. This is a short explaination of the project.
+    <div class="row header-about">President Donald Trump often uses Twitter to express his views on companies. His tweet's effect on a company's stock is usually brief, creating a small blip before the stock's price returns to typical levels. Some savvy investors have created computer algorithms that take advantage of the "Trump Effect," trading in the miliseconds following a tweet and resulting in huge profts. The president's procilvity for directly influencing markets has some question the ethics of this maneuvering.
     </div>
+    <div class="row byline">By Stephanie Lamm</div>
   </div>
 </div>
 </template>
@@ -29,7 +30,7 @@ export default {
 .header-container {
   text-align: center;
   display: block;
-  margin-top: 5em;
+  margin-top: 2em;
 }
 .header-title {
   font-family: 'Mukta Vaani', sans-serif;
@@ -38,8 +39,13 @@ export default {
 }
 .header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 25px;
+  font-size: 20px;
   color: grey;
-  margin: 0 2em 1.5em;
+  margin: 0 5em 0.5em;
+}
+.byline {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 1.5em;
 }
 </style>

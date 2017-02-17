@@ -59,18 +59,16 @@
 </script>
 <style>
 .box {
-  background-color: white;
+  background-color: #F5F8FA;
   margin-bottom: 75px;
-  padding: 3em;
+  padding: 1em 3em 3em 3em;
 }
 .about {
   font-size: 25px;
   font-weight: bold;
 }
-
 .chart {
   float: right;
-  color: red;
 }
 .analysis {
   font-size: 25px;

@@ -55,7 +55,7 @@ export default {
   font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
   font-size: 50px;
-  background-color: white;
+  background-color: #F5F8FA;
   padding: 0.5em 1em 0em;
 }
 </style>
