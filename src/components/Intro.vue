@@ -1,12 +1,13 @@
 <template>
   <div class="Intro">
-    <div class="header-bar"></div>
     <div class="container-fluid header-container">
     <div class="row header-title">When Trump Tweets About Public Companies</div>
-    <div class="row header-about">President Donald Trump often uses Twitter to express his views on companies. His tweet's effect on a company's stock is usually brief, creating a small blip before the stock's price returns to typical levels. Some savvy investors have created computer algorithms that take advantage of the "Trump Effect," trading in the miliseconds following a tweet and resulting in huge profts. However, the long-term effect on the company's stock is typically slight.
+    <div class="row header-about">President Donald Trump often uses Twitter to express his views on companies. His tweet's effect on a company's stock is usually brief, creating a small blip before the stock's price returns to typical levels. Some savvy investors have created computer algorithms that take advantage of the "Trump Effect," trading in the miliseconds following a tweet and resulting in huge profts. However, the long-term effect on the company's stock is typically slight.</br></br>
+      Use this tool to learn about the companies Trump has tweeted about and what that attention has done to their stock price. Select a company to display information about the company, a Donald Trump tweet, historical price data, and an analysis of the "Trump Effect."
     </div>
-    <div class="row byline">By Stephanie Lamm</div>
-  </div>
+    <div class="row byline">By Stephanie Lamm   <a href="https://github.com/stephanielamm"><img border="0" alt="Github" src="static/git.png" width="20" height="20"></a>
+</div>
+</div>
 </div>
 </template>
 <script>
@@ -23,16 +24,13 @@ export default {
 }
 </script>
 <style>
-.header-bar {
-  background-color: #3B7B8E;
-  height: 35px;
-}
+/* Intro Stylings */
 .header-container {
-  text-align: center;
   display: block;
   margin-top: 2em;
 }
 .header-title {
+  text-align: center;
   font-family: 'Mukta Vaani', sans-serif;
   font-size: 40px;
   font-weight: bold;
@@ -45,12 +43,13 @@ export default {
   margin: 0 10em 0.5em;
 }
 .byline {
+  text-align: center;
   font-size: 18px;
   font-weight: bold;
   margin-bottom: 1.5em;
 }
+  /* For mobile: */
 @media only screen and (max-width: 1275px) {
-    /* For mobile phones: */
     .header-title {
       font-size: 25px;
       margin: 0px 15px 1px;
@@ -62,6 +61,5 @@ export default {
     .byline {
       font-size: 13px;
     }
-
 }
 </style>
