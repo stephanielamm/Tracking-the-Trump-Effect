@@ -2,8 +2,7 @@
   <div id="app">
       <Intro></Intro>
       <dropDown :tweets="tweets"></dropDown>
-      <footerBar></footerBar>
-  </div>
+      </div>
 </div>
 </template>
 
@@ -11,14 +10,12 @@
 import axios from 'axios'
 import Intro from './components/Intro'
 import dropDown from './components/dropDown'
-import footerBar from './components/footerBar'
 
 export default {
   name: 'app',
   components: {
     Intro,
-    dropDown,
-    footerBar
+    dropDown
   },
 
   data () {

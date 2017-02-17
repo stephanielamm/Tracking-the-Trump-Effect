@@ -48,4 +48,18 @@ export default {
   font-weight: bold;
   margin-bottom: 1.5em;
 }
+@media only screen and (max-width: 1275px) {
+    /* For mobile phones: */
+    .header-title {
+      font-size: 25px;
+    }
+    .header-about {
+      font-size: 15px;
+      margin: 0px 1px 1px;
+    }
+    .byline {
+      font-size: 13px;
+    }
+
+}
 </style>

@@ -65,5 +65,13 @@ export default {
   font-weight: bold;
   font-size: 40px;
 }
+@media only screen and (max-width: 1275px) {
+    /* For mobile phones: */
+    #drop-down-menu {
+      margin: 0.5em 4em 3em 0.5em;
+      text-align: center;
+      font-size: 18px;
+    }
+}
 
 </style>
