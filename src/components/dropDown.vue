@@ -14,11 +14,9 @@
       <option value="General Motors">General Motors</option>
     </select>
   </br>
-    <div class="container" id="company-container">
-      <div class="row">
-      <div class="col-6" id="company-name">{{ currentCompany }}</div>
+    <div class="container">
+      <div class="row company-name">{{ currentCompany }}</div>
     </div>
-  </div>
   <about :currentCompany="currentCompany" :tweets="tweets"></about>
 </div>
 
@@ -32,7 +30,7 @@ export default {
   ],
   data () {
     return {
-      currentCompany: ''
+      currentCompany: 'Select a company to explore the Trump Effect'
     }
   },
   methods: {
@@ -45,27 +43,20 @@ export default {
 <style>
 #app {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: 20px;
-  padding:20px;
-  background-color: #F5F8FA;
-  /* border: thin grey solid; */
 }
 #drop-down-menu {
-  margin-top: 2em;
-  margin-left: 3.5em;
-  margin-bottom: 2em;
+  margin: 2em 4em 3em 4em;
   text-align: center;
   font-size: 25px;
 }
-#company-name {
+.company-name {
   font-family: 'Mukta Vaani', sans-serif;
   font-weight: bold;
   font-size: 50px;
-  float: left;
-  margin-left: 2em;
-  margin-top: 2em;
+  background-color: white;
+  padding-left: 1em;
+  padding-top: 1em;
 }
 </style>

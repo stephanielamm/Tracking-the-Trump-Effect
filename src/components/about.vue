@@ -1,18 +1,31 @@
 <template>
-  <div class="about">
-  <div class="container">
-  <div class="row" id="company-about">
+  <div class="container box">
+  <div class="row about">
+  <div class="col col-lg-12">
   <p>About the company: {{ currentAbout }}</p>
 </div>
 </div>
-<tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
 
-</tweetData>
-<analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
-</analysis>
-<stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
-</stockData>
+<div class="row">
+  <div class="col-lg-5">
+    <tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+    </tweetData>
+  </div>
+<div class="col-lg-5 chart">
+    <stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+    </stockData>
 </div>
+</div>
+
+<div class="row analysis">
+  <div class="col col-lg-12">
+    <analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+    </analysis>
+  </div>
+</div>
+
+</div>
+
 </template>
   <script>
   import tweetData from '../components/tweetData'
@@ -45,11 +58,21 @@
   }
 </script>
 <style>
-/* About company styling */
-#company-about {
-  font-family: 'Raleway', Helvetica, Arial, sans-serif;
-  margin-left: 0.5em;
-  margin-right: 0.5em;
-  margin-top: 0.1em;
+.box {
+  background-color: white;
+  margin-bottom: 75px;
+  padding: 3em;
+}
+.about {
+  font-size: 25px;
+  font-weight: bold;
+}
+.chart {
+  float: right;
+  color: red;
+}
+.analysis {
+  font-size: 25px;
+  font-weight: bold;
 }
 </style>

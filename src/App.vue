@@ -4,6 +4,7 @@
       <dropDown :tweets="tweets"></dropDown>
       <footerBar></footerBar>
   </div>
+</div>
 </template>
 
 <script>
@@ -43,13 +44,7 @@ export default {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  margin-top: 20px;
-  padding:20px;
-  background-color: #F5F8FA;
-  /* border: thin grey solid; */
-}
-[v-cloak] {
-  display: none;
+  color: grey;
 }
 
 </style>

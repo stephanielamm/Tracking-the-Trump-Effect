@@ -2,7 +2,7 @@
   <div id="app">
     <div class="tweetData">
     <div class="row">
-    <div class="col-6" id="tweet-box">
+    <div class="col">
     <p>@realDonaldTrump: {{ currentTweettext }} </p>
       </div>
   </div>
@@ -33,11 +33,12 @@ export default {
 </script>
 
 <style>
-#tweet-box {
+#app {
+  background-color: #F5F8FA;
+}
+.tweetData {
   float: left;
-  margin-left: 3.5em;
-  margin-top: 2em;
-  margin-bottom: 2em;
+  color: #1DA1F2;
 }
 
 </style>
