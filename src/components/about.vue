@@ -23,7 +23,7 @@
   </div>
 </div>
 <div class="row footer">
-<div class="col-12">Stock data from Yahoo Finance. Tweets from @realDonaldTrump. Company information from Wikipedia.</div>
+<div class="col-12">Stock charts from Yahoo Finance. Tweets from @realDonaldTrump. Company information from Wikipedia.</div>
 </div>
 </div>
 
