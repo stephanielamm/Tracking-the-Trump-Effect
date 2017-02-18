@@ -1,6 +1,6 @@
-# vue-project-1
+# Tracking-the-Trump-Effect
 
-> A Vue.js project
+> An application to see how the stock market responds to Donald Trump's tweets about companies. A responsive Vue.js single page application.
 
 ## Build Setup
 
