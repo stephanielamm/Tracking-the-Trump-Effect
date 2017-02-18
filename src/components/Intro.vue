@@ -39,7 +39,7 @@ export default {
 .header-about {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   font-size: 18px;
-  color: grey;
+  color: #696969;
   margin: 0 10em 0.5em;
 }
 .byline {

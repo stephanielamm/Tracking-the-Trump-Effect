@@ -41,7 +41,7 @@ export default {
   font-size: 18px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  color: grey;
+  color: #696969;
 }
 
 </style>

@@ -15,6 +15,7 @@
   </analysis>
 </div>
 </div>
+</br>
 <div class="row">
   <div class="col-12 chart">
     <stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
@@ -74,8 +75,8 @@
 }
 .footer {
   width: 100%;
-  font-size: 12px;
-  color: grey;
+  font-size: 15px;
+  color: #696969;
   float:right;
 }
 .analysis {
