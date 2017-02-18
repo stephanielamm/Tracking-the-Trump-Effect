@@ -19,3 +19,10 @@ npm run build --report
 ```
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+
+### Screencaps
+
+> Here is the working header and drop-down menu.
+> The drop-down menu should call up data on the company from twitter-data.json.
+
+<img src="demo-header.png">
