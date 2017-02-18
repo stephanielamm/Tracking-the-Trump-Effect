@@ -1,5 +1,6 @@
 <template>
   <div id="app">
+    <!-- Twitter Box will only show if a company is selected -->
     <div v-show="currentCompany !== ''" class="container tweetData">
     <p><img src="static/dt.jpg" style="float:left; width:55px; height:55px; border:1px solid white; border-radius:5px; margin:3px 8px 8px 0px;">
       <span style="font-weight:bold; padding-bottom:0px; font-size:22px;">Donald J. Trump</span>

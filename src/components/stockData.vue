@@ -1,14 +1,10 @@
 <template>
-
+  <!-- Stock Chart Box will only show if a company is selected -->
 <div v-show="currentCompany !== ''" class="container stockData">
-<!--  <img src=" " > -->
+ <img :src="currentCompanyData.logo" alt="company logo" style="width:100px;height:100px;"/>
 </div>
-
 </template>
-
 <script>
-// import $ from 'jquery'
-
 export default {
   name: 'stockData',
   props: [
@@ -21,9 +17,12 @@ export default {
     }
   },
   computed: {
-    // currentStockchart () {
-    //   if (this.currentCompanyData) return this.currentCompanyData.stockchart
-    // }
+    currentCompanyData () {
+      return this.tweets[this.currentCompany]
+    },
+    currentLogo () {
+      if (this.currentCompanyData) return this.currentCompanyData.logo
+    }
   },
   mounted () {
   },
@@ -31,9 +30,6 @@ export default {
 
   },
   watch: {
-  //  currentCompanyData: function () {
-  //    this.drawChart()
-  //  }
   }
 }
 </script>
@@ -41,8 +37,8 @@ export default {
 /* Stock Chart Styling */
 .stockData {
   float: right;
-  height: 130px;
-  width: 350px;
+  height: 100px;
+  width: 100px;
   border: 1px solid grey;
   border-radius:5px;
   padding: 8px;
