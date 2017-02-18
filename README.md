@@ -20,14 +20,30 @@ npm run build --report
 
 For detailed explanation on how things work, checkout the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
 
-### Screencaps
+### Components
+> App.vue
+> Parent: about.vue
+> stockData.vue, tweetData.Vue, dropDown.vue, analysis.vue and Intro.vue call back to About.vue
+
+#### Static Elements
+> JSON:
+> twitter-data.json
+
+> Photos:
+> Donald Trump Twitter Bio Pic: dt.jpg
+> Yahoo Finance Graphs for each company are named according to '(TickerSymbol).png'
+
+##### Installation Notes
+> This project uses Bootstrap and jQuery. I have included the files in this package, but if you encounter trouble make sure they are installed correctly. 
+
+###### Screencaps
 
 > Here is the working header and drop-down menu.
 > The drop-down menu should call up data on the company from twitter-data.json.
 
 <img src="demo-header.png">
 
-> Here is how the company information, twitter information and analysis should appear. In mobile each div expands to full-width. 
+> Here is how the company information, twitter information and analysis should appear. In mobile each div expands to full-width.
 
 <img src="demo-tweet.png">
 
