@@ -50,7 +50,7 @@ export default {
   text-align: center;
   font-size: 25px;
 }
-/* Company Name Styling */
+/* Company */
 .company-container {
   background-color: #F5F8FA;
   width: 85%;
@@ -70,5 +70,4 @@ export default {
       font-size: 18px;
     }
 }
-
 </style>

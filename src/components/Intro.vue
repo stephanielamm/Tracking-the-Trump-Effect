@@ -1,10 +1,13 @@
 <template>
   <div class="Intro">
     <div class="container-fluid header-container">
+      <!-- Site Title -->
     <div class="row header-title">When Trump Tweets About Public Companies</div>
+      <!-- Text about the website -->
     <div class="row header-about">President Donald Trump often uses Twitter to express his views on companies. His tweet's effect on a company's stock is usually brief, creating a small blip before the stock's price returns to typical levels. Some savvy investors have created computer algorithms that take advantage of the "Trump Effect," trading in the miliseconds following a tweet and resulting in huge profts. However, the long-term effect on the company's stock is typically slight.</br></br>
       Use this tool to learn about the companies Trump has tweeted about and what that attention has done to their stock price. Select a company to display information about the company, a Donald Trump tweet, historical price data, and an analysis of the "Trump Effect."
     </div>
+    <!-- Byline and Github Link -->
     <div class="row byline">By Stephanie Lamm   <a href="https://github.com/stephanielamm"><img border="0" alt="Github" src="static/git.png" width="20" height="20"></a>
 </div>
 </div>

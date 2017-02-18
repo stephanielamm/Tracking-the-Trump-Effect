@@ -17,6 +17,7 @@ export default {
     }
   },
   computed: {
+    // Creates a variable that grabs the analysis value from the company selected from the drop down menu
     currentAnalysis () {
       if (this.currentCompanyData) return this.currentCompanyData.analysis
     }

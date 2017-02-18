@@ -2,12 +2,17 @@
   <div id="app">
     <!-- Twitter Box will only show if a company is selected -->
     <div v-show="currentCompany !== ''" class="container tweetData">
-    <p><img src="static/dt.jpg" style="float:left; width:55px; height:55px; border:1px solid white; border-radius:5px; margin:3px 8px 8px 0px;">
+    <p>
+      <img src="static/dt.jpg" style="float:left; width:55px; height:55px; border:1px solid white; border-radius:5px; margin:3px 8px 8px 0px;">
+      <!-- Twitter Name -->
       <span style="font-weight:bold; margin-bottom:0px; font-size:22px;">Donald J. Trump</span>
     </br>
+    <!-- Twitter Handle -->
       <span style="color:#1DA1F2; margin-top:0px; font-size:15px;" >@realDonaldTrump</span>
     </br></br>
-      <span style="font-size: 22px; line-height: 0.8;">{{ currentTweettext }}</span> </br>
+    <!-- Tweet text, time and date for the company selected -->
+      <span style="font-size: 22px; line-height: 0.8;">{{ currentTweettext }}</span>
+    </br>
       <span style="font-size:12; color:#696969;">{{ currentTweettime }} - {{ currentTweetdate }}</span>
     </p>
       </div>
@@ -27,7 +32,9 @@ export default {
     }
   },
   computed: {
-    // Will show tweet based on current company only if current company is not null
+    // Creating variables to grab tweettext, date, and time values from the company selected
+    // in the drop down menu
+    // Will show tweet information based on current company only if current company is not null
     currentTweettext () {
       if (this.currentCompanyData) return this.currentCompanyData.tweettext
     },
@@ -47,6 +54,7 @@ export default {
 </script>
 
 <style>
+/* Styles the main box the Tweet sits in */
 .tweetData {
   font-family: 'Mukta Vaani', sans-serif;
   width: 100%;
