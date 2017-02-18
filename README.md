@@ -26,3 +26,7 @@ For detailed explanation on how things work, checkout the [guide](http://vuejs-t
 > The drop-down menu should call up data on the company from twitter-data.json.
 
 <img src="demo-header.png">
+
+> After trying to implement HighCharts, HighStocks, D3 and GoogleCharts, I settled on screenshots of Yahoo Finance data in order to meet my submission deadline. I will continue to work with data and various visualization tools after this project is graded, with the final goal being to create a component that calls company-specific stock data from a json file.
+
+<img src="demo-stock.png">
