@@ -74,9 +74,11 @@ GM: https://en.wikipedia.org/wiki/General_Motors
       }
     },
     computed: {
+      // Creates a variable that contains the values of the company slected from the drop down menu
       currentCompanyData () {
         return this.tweets[this.currentCompany]
       },
+    // Creates a variable that grabs the about value from the company selected from the drop down menu
       currentAbout () {
         if (this.currentCompanyData) return this.currentCompanyData.about
       }
@@ -91,6 +93,7 @@ GM: https://en.wikipedia.org/wiki/General_Motors
   }
 </script>
 <style>
+/* Content Box Styling */
 .box {
   background-color: #F5F8FA;
   width: 85%;
@@ -98,25 +101,23 @@ GM: https://en.wikipedia.org/wiki/General_Motors
   margin-bottom: 75px;
   padding: 1em 3em 0.2em 3em;
 }
+/* About Company Font Styling */
 .about {
   font-size: 25px;
 }
+/* Analysis Styling */
 .analysis {
   font-size: 25px;
   float: right;
+  font-style: italic;
 }
+/* Credits Styling */
 .footer {
   width: 100%;
   font-size: 15px;
   color: #696969;
   float:right;
 }
-.analysis {
-  font-size: 25px;
-  float: right;
-  font-style: italic;
-}
-
 /* For Desktop: */
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
