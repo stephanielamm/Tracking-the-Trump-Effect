@@ -6,20 +6,19 @@
 </div>
 </div>
 <div class="row">
-  <div class="col-5">
+  <div class="col-8">
     <tweetData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
     </tweetData>
   </div>
-<div class="col-5 chart">
+<div class="col-3 analysis">
+  <analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
+  </analysis>
+</div>
+</div>
+<div class="row">
+  <div class="col-12 chart">
     <stockData :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
     </stockData>
-</div>
-</div>
-</br>
-<div class="row analysis">
-  <div class="col-12">
-    <analysis :currentCompany="currentCompany" :tweets="tweets" :currentCompanyData="currentCompanyData">
-    </analysis>
   </div>
 </div>
 <div class="row footer">
@@ -71,12 +70,18 @@
 }
 .analysis {
   font-size: 25px;
+  float: right;
 }
 .footer {
   width: 100%;
   font-size: 12px;
   color: grey;
-  text-align: left;
+  float:right;
+}
+.analysis {
+  font-size: 25px;
+  float: right;
+  font-style: italic;
 }
 
 /* For Desktop: */

@@ -40,9 +40,7 @@ export default {
 <style>
 .tweetData {
   font-family: 'Mukta Vaani', sans-serif;
-  height: 230px;
-  width: 500px;
-  float: left;
+  width: 100%;
   border: 4px solid #DCF5FF;
   border-radius:5px;
   padding: 8px;
@@ -50,13 +48,6 @@ export default {
   margin: 25px 0px;
   color: black;
   font-size: 25px;
+  float: left;
 }
-@media only screen and (max-width: 1275px) {
-    /* For mobile phones: */
-    .tweetData {
-      width: 100%;
-
-    }
-}
-
 </style>

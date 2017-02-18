@@ -1,8 +1,6 @@
 <template>
 <div class="analysis">
-<div class="row">
-<p><span style="font-weight:bold;"></span>{{ currentAnalysis }}</p>
-</div>
+<p>{{ currentAnalysis }}</p>
 </div>
 </template>
 
@@ -34,5 +32,7 @@ export default {
   font-family: 'Raleway', Helvetica, Arial, sans-serif;
   margin-left: 1em;
   margin-right: 1em;
+  float: left;
+  font-style: italic;
 }
 </style>
