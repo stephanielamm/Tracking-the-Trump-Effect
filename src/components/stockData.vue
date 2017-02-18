@@ -1,7 +1,7 @@
 <template>
   <!-- Stock Chart Box will only show if a company is selected -->
 <div v-show="currentCompany !== ''" class="container stockData">
- <img :src="currentCompanyData.logo" alt="company logo" style="width:100px;height:100px;"/>
+ <img :src="currentCompanyData.stockchart" alt="company stockchart" style="width:100px;height:100px;"/>
 </div>
 </template>
 <script>
@@ -21,7 +21,7 @@ export default {
       return this.tweets[this.currentCompany]
     },
     currentLogo () {
-      if (this.currentCompanyData) return this.currentCompanyData.logo
+      if (this.currentCompanyData) return this.currentCompanyData.stockchart
     }
   },
   mounted () {
